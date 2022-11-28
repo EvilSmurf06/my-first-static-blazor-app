@@ -8,6 +8,24 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Resources\bg-BG.yml" />
+    <None Remove="Resources\de-DE.yml" />
+    <None Remove="Resources\en-US.yml" />
+    <None Remove="Resources\es-AR.yml" />
+    <None Remove="Resources\hu-HU.yml" />
+    <None Remove="Resources\ja-JP.yml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\bg-BG.yml" />
+    <EmbeddedResource Include="Resources\de-DE.yml" />
+    <EmbeddedResource Include="Resources\en-US.yml" />
+    <EmbeddedResource Include="Resources\es-AR.yml" />
+    <EmbeddedResource Include="Resources\hu-HU.yml" />
+    <EmbeddedResource Include="Resources\ja-JP.yml" />
+  </ItemGroup>
+
+  <ItemGroup>
     <None Include="wwwroot\images\bg-auth.png" />
     <None Include="wwwroot\images\bg-cta01.jpg" />
     <None Include="wwwroot\images\bg-cta02.jpg" />
@@ -52,8 +70,10 @@
   </ItemGroup>
 
   <ItemGroup>
+    <PackageReference Include="AKSoftware.Localization.MultiLanguages" Version="5.8.0" />
     <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly" Version="7.0" />
     <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.DevServer" Version="7.0" PrivateAssets="all" />
+    <PackageReference Include="WMBlazorSlickCarousel" Version="1.0.1" />
   </ItemGroup>
 
   <ItemGroup>
