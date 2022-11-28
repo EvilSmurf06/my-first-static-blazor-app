@@ -8,6 +8,50 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Include="wwwroot\images\bg-auth.png" />
+    <None Include="wwwroot\images\bg-cta01.jpg" />
+    <None Include="wwwroot\images\bg-cta02.jpg" />
+    <None Include="wwwroot\images\bg.jpg" />
+    <None Include="wwwroot\images\blog\bg-blog.jpg" />
+    <None Include="wwwroot\images\blog\blog-01.jpg" />
+    <None Include="wwwroot\images\blog\blog-02.jpg" />
+    <None Include="wwwroot\images\blog\blog-03.jpg" />
+    <None Include="wwwroot\images\blog\blog-04.jpg" />
+    <None Include="wwwroot\images\blog\blog-05.jpg" />
+    <None Include="wwwroot\images\blog\blog-06.jpg" />
+    <None Include="wwwroot\images\clients\01.png" />
+    <None Include="wwwroot\images\clients\02.png" />
+    <None Include="wwwroot\images\clients\03.png" />
+    <None Include="wwwroot\images\clients\04.png" />
+    <None Include="wwwroot\images\clients\05.png" />
+    <None Include="wwwroot\images\favicon.ico" />
+    <None Include="wwwroot\images\features.png" />
+    <None Include="wwwroot\images\home\bg-home2.jpg" />
+    <None Include="wwwroot\images\home\bg-home3-1.jpg" />
+    <None Include="wwwroot\images\home\bg-home3-2.jpg" />
+    <None Include="wwwroot\images\home\bg-home3-3.jpg" />
+    <None Include="wwwroot\images\home\bg-home4.jpg" />
+    <None Include="wwwroot\images\home\home-video.mp4" />
+    <None Include="wwwroot\images\home\home1.png" />
+    <None Include="wwwroot\images\home\home5.png" />
+    <None Include="wwwroot\images\logo-dark.png" />
+    <None Include="wwwroot\images\logo-light.png" />
+    <None Include="wwwroot\images\quote.png" />
+    <None Include="wwwroot\images\subscribe.png" />
+    <None Include="wwwroot\images\users\img1.jpg" />
+    <None Include="wwwroot\images\users\img2.jpg" />
+    <None Include="wwwroot\images\users\img3.jpg" />
+    <None Include="wwwroot\images\users\img4.jpg" />
+    <None Include="wwwroot\images\users\img5.jpg" />
+    <None Include="wwwroot\images\users\img6.jpg" />
+    <None Include="wwwroot\images\users\img7.jpg" />
+    <None Include="wwwroot\images\users\img8.jpg" />
+    <None Include="wwwroot\images\work-1.png" />
+    <None Include="wwwroot\images\work-2.png" />
+    <None Include="wwwroot\images\work-3.png" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly" Version="7.0" />
     <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.DevServer" Version="7.0" PrivateAssets="all" />
   </ItemGroup>
