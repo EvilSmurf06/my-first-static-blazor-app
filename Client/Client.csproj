@@ -15,6 +15,7 @@
     <None Remove="Resources\hu-HU.yml" />
     <None Remove="Resources\ja-JP.yml" />
     <None Remove="Resources\nl-NL.yml" />
+    <None Remove="Resources\tr-TR.yml" />
   </ItemGroup>
 
   <ItemGroup>
@@ -25,6 +26,7 @@
     <EmbeddedResource Include="Resources\hu-HU.yml" />
     <EmbeddedResource Include="Resources\ja-JP.yml" />
     <EmbeddedResource Include="Resources\nl-NL.yml" />
+    <EmbeddedResource Include="Resources\tr-TR.yml" />
   </ItemGroup>
 
   <ItemGroup>
