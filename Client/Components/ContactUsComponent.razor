@@ -6,9 +6,6 @@
             <div class="col-lg-6">
                 <div class="text-center mb-5">
                     <h3>@languageContainer.Keys["ContactUs"]</h3>
-                    <p class="text-muted mt-2">
-                        @languageContainer.Keys["ContactUsText"]
-                    </p>
                 </div>
             </div>
         </div>
@@ -61,13 +58,13 @@
                         <div class="col-lg-12">
                             <div class="position-relative mb-3">
                                 <span class="input-group-text align-items-start"><i class="mdi mdi-comment-text-outline"></i></span>
-                                <textarea name="comments" id="comments" rows="4" class="form-control" placeholder="@languageContainer.Keys["EnterYourMessage"]*"></textarea>
+                                <textarea @bind="Body" name="comments" id="comments" rows="4" class="form-control" placeholder="@languageContainer.Keys["EnterYourMessage"]*"></textarea>
                             </div>
                         </div>
                     </div>
                     <div class="row">
                         <div class="col-sm-12 text-end">
-                            <input type="submit" id="submit" name="send" class="btn btn-primary"
+                            <input  id="submit" name="send" class="btn btn-primary" @onclick="OkClick"
                                    value="@languageContainer.Keys["SendMessage"]">
                         </div>
                     </div>
@@ -84,6 +81,10 @@
 @code {
     [Parameter]
     public string CultureCode { get; set; }
+    [Parameter]
+    public string Body { get;set; }
+    [Parameter]
+    public EventCallback OkClick { get; set; }
 
     protected override async Task OnInitializedAsync()
     {
@@ -91,4 +92,5 @@
 
 
     }
+    
 }

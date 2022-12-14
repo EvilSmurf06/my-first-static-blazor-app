@@ -1,7 +1,16 @@
 ﻿@page "/"
+@using System.Net.Mail;
+@using System.Net;
+@using BlazorApp.Shared;
+@using static System.Net.WebRequestMethods;
 @inject IJSRuntime JS
 @inject ILanguageContainerService languageContainer
+@inject HttpClient Http
+
+
+
 <PageTitle>Creative Solution</PageTitle>
+
 
 <nav id="navbar" class="navbar navbar-expand-lg fixed-top sticky">
     <div class="container">
@@ -13,12 +22,12 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ms-auto mb-2 mb-lg-0" id="navbar-navlist">
-                
                 <li class="nav-item dropdown">
                     <a class="nav-link" href="#blog" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                         @languageContainer.Keys["SelectLanguage"] <i class="mdi mdi-chevron-down"></i>
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a href="" @onclick='() => SetLanguage("tr-TR")'>Turkey</a></li>
                         <li> <a href="" @onclick='() => SetLanguage("en-US")'>English</a></li>
                         <li><a href="" @onclick='() => SetLanguage("de-DE")'>Germany</a></li>
                         <li><a href="" @onclick='() => SetLanguage("ja-JP")'>Japan</a></li>
@@ -26,69 +35,32 @@
                         <li><a href="" @onclick='() => SetLanguage("es-AR")'>Argentina</a></li>
                         <li><a href="" @onclick='() => SetLanguage("bg-BG")'>Bulgary</a></li>
                         <li><a href="" @onclick='() => SetLanguage("nl-NL")'>Netherlands</a></li>
-                        <li><a href="" @onclick='() => SetLanguage("tr-TR")'>Turkey</a></li>
+                        <li><a href="" @onclick='() => SetLanguage("fr-FR")'>France</a></li>
                     </ul>
                 </li>
             </ul>
             <!--end navbar-nav-->
             
         </div>
-        @*<div>
-            <NavLink class="nav-link" @onclick="()=>expandSubNav = !expandSubNav">
-                <span class="oi oi-list-rich" aria-hidden="true"></span> @languageContainer.Keys["SelectLanguage"]
-            </NavLink>
-            @if (expandSubNav)
-            {
-                <NavLink class="expand-menu">
-                    <span> <button class="btn btn-primary" style="margin:10px" @onclick='() => SetLanguage("en-US")'>English</button></span>
-                </NavLink>
-                <NavLink class="" href="">
-                    <span><button class="btn btn-primary" style="margin:10px" @onclick='() => SetLanguage("de-DE")'>Germany</button></span>
-                </NavLink>
-                <NavLink class="" href="">
-                    <span><button class="btn btn-primary" style="margin:10px" @onclick='() => SetLanguage("ja-JP")'>Japan</button></span>
-                </NavLink>
-                <NavLink class="" href="">
-                    <span><button class="btn btn-primary" style="margin:10px" @onclick='() => SetLanguage("hu-HU")'>Hungary</button></span>
-                </NavLink>
-                <NavLink class="" href="">
-                    <span><button class="btn btn-primary" style="margin:10px" @onclick='() => SetLanguage("es-AR")'>Argentina</button></span>
-                </NavLink>
-                <NavLink class="" href="">
-                    <span><button class="btn btn-primary" style="margin:10px" @onclick='() => SetLanguage("bg-BG")'>Bulgary</button></span>
-                </NavLink>
-            }
-        </div>*@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ms-auto mb-2 mb-lg-0" id="navbar-navlist">
                 <li class="nav-item">
                     <a class="nav-link active" href="#home">@languageContainer.Keys["NavbarItem1"]</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#features">@languageContainer.Keys["NavbarItem2"]</a>
+                    <a class="nav-link" href="#features">@languageContainer.Keys["Features"]</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#client">@languageContainer.Keys["NavbarItem3"]</a>
-                </li>
+
                 <li class="nav-item">
                     <a class="nav-link" href="#faq">@languageContainer.Keys["NavbarItem4"]</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#about">@languageContainer.Keys["NavbarItem5"]</a>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link" href="#blog" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        @languageContainer.Keys["NavbarItem6"] <i class="mdi mdi-chevron-down"></i>
-                    </a>
-                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <li><a class="nav-link" href="#blog">Blog</a></li>
-                        <li><a class="nav-link" href="blog-list.html">Blog List</a></li>
-                        <li><a class="nav-link" href="" @onclick='() => SetLanguage("bg-BG")'>Blog Details</a></li>
-                    </ul>
-                </li>
-                <li class="nav-item">
                     <a class="nav-link" href="#contact">@languageContainer.Keys["NavbarItem7"]</a>
+                    @*<input @bind="newItemName" placeholder="New Todo Item" />
+                    <button @onclick="AddItem">Add</button>
+                    *@
                 </li>
+
             </ul>
             <!--end navbar-nav-->
             <ul class="list-inline mb-0 ps-lg-4 ms-2">
@@ -100,6 +72,7 @@
                 </li>
                 <li class="list-inline-item">
                     <a href="#" class="primary-link"><i class="mdi mdi-instagram"></i></a>
+                
                 </li>
             </ul>
         </div>
@@ -108,125 +81,33 @@
     <!--end container-->
 </nav>
 
+
 <HomeComponent CultureCode="@culture" />
+
+
 <!-- START FEATURES -->
 <FeaturesComponent CultureCode="@culture" />
+
 <!-- END FEATURES -->
 <!-- START Process -->
+
 <ProcessComponent CultureCode="@culture" />
+
 <!-- END Process -->
-<!-- START CTA -->
-<VideoComponent CultureCode="@culture" />
-<!-- END CTA -->
-<!-- START CLIENTS -->
-<ClientsComponent CultureCode="@culture"/>
-<!-- END CLIENTS -->
-<!-- START FEATURE  -->
-<section class="section">
-    <div class="container">
-        <div class="row align-items-center">
-            <div class="col-lg-5">
-                <div class="features-box">
-                    <h3 class="mb-4">@languageContainer.Keys["StatisticVariableTitle"]</h3>
-                    <p class="text-muted mb-4">
-                        @languageContainer.Keys["StatisticVariableText"]
-                    </p>
-                    <div class="row" id="counter">
-                        <div class="col-md-5 col-6">
-                            <div>
-                                <h5 class="counter_value" data-target="4954">&nbsp;</h5>
-                                <h6 class="text-muted">@languageContainer.Keys["UsingUser"]</h6>
-                            </div>
-                        </div>
-                        <!--end col-->
-                        <div class="col-md-5 col-6">
-                            <div>
-                                <h5 class="counter_value" data-target="1599">&nbsp;</h5>
-                                <h6 class="text-muted">@languageContainer.Keys["ComplateProject"]</h6>
-                            </div>
-                        </div>
-                        <!--end col-->
-                    </div>
-                    <!--end row-->
-                    <div class="mt-4">
-                        <a href="#" class="btn btn-primary">@languageContainer.Keys["LearnMore"] <i class="mdi mdi-arrow-right"></i></a>
-                    </div>
-                </div>
-                <!--end feature-box-->
-            </div>
-            <!--end col-->
-            <div class="col-lg-6 offset-lg-1">
-                <div class="text-center mt-5 mt-lg-0">
-                    <img src="images/features.png" alt="Features" class="img-fluid">
-                </div>
-            </div>
-            <!--end col-->
-        </div>
-        <!--end row-->
-    </div>
-    <!--end container-->
-</section>
-<!-- END FEATURE -->
-<!-- START FAQ -->
-<FAQComponent CultureCode="@culture" />
-<!-- END FAQ -->
-<!-- START ABOUT -->
-<AboutComponent CultureCode="@culture" />
-<!-- END ABOUT -->
-<!-- START CTA -->
-<section class="bg-cta" style="background-image: url('images/bg-cta02.jpg');">
-    <div class="bg-overlay"></div>
-    <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-lg-8">
-                <div class="text-center text-white">
-                    <h2 class="mb-3">@languageContainer.Keys["GetStaredTitle"]</h2>
-                    <p class="text-white-50 mb-0">
-                        @languageContainer.Keys["GetStartedText"]
-                    </p>
-                    <div class="mt-4 pt-4">
-                        <a href="#subscribe" class="btn btn-outline-white" data-bs-toggle="modal">@languageContainer.Keys["GetStartedButton"]</a>
-                    </div>
-                </div>
-            </div>
-            <!--end col-->
-        </div>
-        <!--end row-->
-    </div>
-    <!--end container-->
-</section>
-<!-- END CTA -->
-<!-- START BLOG -->
-<BlogComponent CultureCode="@culture" />
-<!-- END BLOG -->
 <!--start contact-->
+<FAQComponent CultureCode="@culture"></FAQComponent>
+
 <ContactUsComponent CultureCode="@culture" />
+
 <!--end contact-->
 <!-- START FOOTER -->
+
 <FooterComponent CultureCode="@culture" />
+
+
+
+
 <!-- END FOOTER -->
-<!-- Modal -->
-<div class="modal fade" id="presentationVideo" tabindex="-1">
-    <div class="modal-dialog modal-dialog-centered modal-lg">
-        <div class="modal-content  bg-transparent border-0">
-            <div class="modal-body p-0">
-                <div class="text-end">
-                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"
-                            aria-label="Close"></button>
-                </div>
-                <div class="ratio ratio-16x9">
-                    <video id="VisaChipCardVideo" class="video-box" controls>
-                        <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
-                    </video>
-                </div>
-            </div>
-            <!--end modal-body-->
-        </div>
-        <!--end modal-content-->
-    </div>
-    <!--end modal-dialog-->
-</div>
-<!--end modal-->
 <!--start subscribe-Modal -->
 <div class="subscribe-modal modal fade" id="subscribe" tabindex="-1" aria-labelledby="subscribeform"
      aria-hidden="true">
@@ -247,6 +128,8 @@
                         <input type="email" class="form-control border" id="subscribeemail"
                                placeholder="Enter your email" />
                         <button class="btn  btn-primary btn-sm" type="submit" id="button-addon2">@languageContainer.Keys["Subscribe"]</button>
+
+                        
                     </div>
                 </form>
             </div>
@@ -259,8 +142,9 @@
 <!--end SUBSCRIBE modal-->
 <AnchorNavigation></AnchorNavigation>
 @code {
-
-    string culture = "en-US";
+    private string? newItemName;
+    private WeatherForecast[] forecasts = new WeatherForecast[] { };
+    string culture = "tr-TR";
     async Task SetLanguage(string cultureCod)
     {
         languageContainer.SetLanguage(System.Globalization.CultureInfo.GetCultureInfo(cultureCod));
@@ -268,6 +152,16 @@
         expandSubNav = false;
     }
     private bool expandSubNav;
+    protected async override Task OnAfterRenderAsync(bool firstRender)
+    {
+        await JS.InvokeVoidAsync("initSwiper2");
+      
+    }
+    /*
+    private async Task AddItem()
+    {
+        var addItem = new SendMail { Title = newItemName, Body = newItemName };
+        await Http.PostAsJsonAsync("api/GetProducts", addItem);
+    }*/
 
 }
-

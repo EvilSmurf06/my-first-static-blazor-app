@@ -1,66 +1,41 @@
-HomeMessageTitle: NAGYSZERŰ!
-HomeMessageContent: Mi vagyunk a Startup Kreatív Ügynökség
-HomeMessage: A különböző iparágak igényeinek elemzése után gondosan kidolgozott, és a tervezés nagyszerű egyensúlyt teremt a cél és a bemutatás között.
-ProductFeaturesTitle: A termék jellemzői
-ProductFeaturesText: Régóta megállapított tény, hogy az olvasó egy oldalról lesz, amikor megállapítja a tényt, ha megnézi annak elrendezését.
+HomeMessageTitle: HARİKA!
+WhoWeAre: Kik vagyunk?
+WhatIsMobile: Mi az a mobilalkalmazás?
+OurInformation: Tapasztalt csapat
+HomeMessageContent: Mi, a Creative Solution, egy mobil szoftverfejlesztő cég vagyunk.
+HomeMessage: Tapasztalt csapatunkkal együtt olyan csapat vagyunk, amely iOS-en és Androidon is fejleszt alkalmazásokat, és kezeli a következő folyamatokat.
+HomeMessage2: A hordozható eszközökön, például okostelefonokon és táblagépeken való futtatásra szánt szoftverprogramok létrehozását "mobilalkalmazás-fejlesztési szolgáltatásoknak" nevezik. Ezeket az alkalmazásokat általában felhasználói felület és tervezés létrehozásával, az alkalmazás logikájának kódolásával, a program tesztelésével, majd az App Store-on vagy a Google Playen keresztül történő letöltésre elérhetővé tételével fejlesztik.
+HomeMessage3: Csapatunk professzionális munkastílusával együtt azon dolgozunk, hogy a kutatás fényében egészséges módon érjük el az eredményt és a célunkat.
+Features: Jellemzők
+ProductFeaturesTitle: Az alkalmazások jellemzői
 DigitalDesign: Digitális tervezés
-DigitalDesignText: Néhány gyors példaszöveg a kártya címére építve, és a kártya nagy részét a platformon alkotva.
-UnlimitedColors: Korlátlan színek
-UnlimitedColorsText: Hitelesen márka stanaads kompatibilis felhasználó exteible services College Anibh ocean euismod tincidunt laoreet.
+DigitalDesignText: Az innovatív ötletekkel együtt modern módon tervezzük meg termékeink dizájnját.
 StrategySolutions: Stratégiai megoldások
-StrategySolutionsText: Elkülönítve a Könyvjelzők ligetében élnek, közvetlenül a Szemantika partján, egy nagy óceáni regelialia.
-AwesomeSupport: Félelmetes támogatás
-AwesomeSupportText: Átjáró kell biztos benne, hogy van valami beágyazódó szöveg elrejtve minden szükséges, hogy generátor Internet.
-TrulyMultipurpose: Valóban többcélú
-TrulyMultipurposeText: Megint nincs senki, aki szeret, vagy törekszik, vagy vágyik arra, hogy fájdalmat szerezzen magától, mert ez fájdalom
-EasyToCustomize: Könnyen testreszabható
-EasyToCustomizeText: Donec dolor eget augue commodo varius Aenean iaculis arcu in est facilisis, vitae auctor ipsum aliquet.
-FeaturesTitle: Hogyan működik?
-FeaturesText: Régóta megállapított tény, hogy az olvasó egy oldalról lesz, amikor megállapítja a tényt, ha megnézi annak elrendezését.
-Explanation1Title: Mondja el nekünk ötletét
-Explanation1Text: Régóta megállapított tény, hogy az olvasót elvonja az oldal olvasható tartalma, amikor az elrendezését nézi. A Lorem Ipsum használatának lényege, hogy többé-kevésbé van. Régóta megállapított tény, hogy az olvasó elvonja a figyelmét.
-Explanation2Title: Debütálás a felhasználókkal
-Explanation2Text: Néhány gyors példaszöveg a kártya címére építve, és a kártya tartalmának nagy részét teszi ki. A Moltin adja a platformot.
+StrategySolutionsText: Mindig nyitottak vagyunk az új ötletekre, valamint olyan ötletekre és megoldásokra, amelyek lépést tartanak a korral.
+AwesomeSupport: Támogat
+AwesomeSupportText: Mindig veled vagyunk nemcsak a munkafolyamat során, hanem a munka elvégzése utáni folyamatban is.
+FeaturesTitle: Hogyan megy a folyamat?
+Explanation1Title: Mondja el nekünk véleményét
+Explanation1Text: Először is, eljön hozzánk a kívánt munkával és a fejében lévő ötletekkel, és mi megtervezzük a folyamatot, miután együtt megbeszéltük őket.
+Explanation2Title: Felhasználói gondolkodás
+Explanation2Text: Olyan alkalmazásokat gyártunk, amelyek felhasználóbarátak és könnyen kezelhetők.
 Explanation3Title: Kutatás és fejlesztés
-Explanation3Text: High life accusamus terry richardson ad squid. 3 farkashold officia aute, nem cupidatat gördeszka dolor villásreggeli. Élelmiszer-teherautó quinoa nesciunt laborum eiusmod. Mivel széles körben használják az elrendezések kitöltő szövegeként, az olvashatatlanság nagy jelentőséggel bír.
-VideoTitle: Videó bemutató
-VideoText: Kezdj el dolgozni a Creative alkalmazással, amely mindent biztosít, amire szükséged lehet az ismertség növeléséhez, a forgalom növeléséhez és a csatlakozáshoz.
-ClientTitle: Amit az ügyfele mond
-ClientText: A Nagy Oxmox azt tanácsolta neki, hogy ne tegye meg, mert több ezer rossz vessző, vad kérdőjel és fondorlatos pulvinar metus molestie sed Semikoli volt.
-Client1Comment: ' Nagyon jól átgondolt és artikulált kommunikáció. Világos mérföldkövek, határidők és gyors munka. Türelem. Végtelen türelem. Nincsenek parancsikonok. Még akkor is, ha az ügyfél gondatlan. A legjobb rész... mindig nagyszerű eredeti ötletekkel oldja meg a problémákat!. '
-Client2Comment: ' Tökéletesen néz ki minden nagyobb böngészőben, táblagépen és mobileszközön. Minden fájl rendezett, úgy gondoljuk, hogy könnyű lesz használni és szerkeszteni őket. Ez a sablon jól szervezett és nagyon könnyen testreszabható. Hozzáadtunk egy sötét verziót, amely támogatja az RTL-t. '
-Client3Comment: ' Minden ügyfélwebhelye, ha Ön ügynökség vagy szabadúszó. Minden eszközt megkapott, amire szüksége van ahhoz, hogy szupergyors reszponzív webhelyeket hozzon létre csodálatos felhasználói élménnyel. Az alkatrészek és az előre megtervezett elrendezések folyamatosan bővülő könyvtára megkönnyíti az életét. '
-StatisticVariableTitle: Mi vagyunk a digitális kreatív céloldal
-StatisticVariableText: A sikeres ember és mások közötti különbség nem az erő hiánya, nem a tudás hiánya, hanem az akarat hiánya. Pszeudo-latin nyelven készült, amely többé-kevésbé pszeudo-latin nyelvnek felel meg.
-UsingUser: Boldog felhasználó
-ComplateProject: Complate projekt
+Explanation3Text: Szakterülettől függetlenül széles körű kutatást végzünk, figyelembe véve a piac állapotát és minden tényezőt, és sokoldalú terméket hozunk létre.
 LearnMore: Tudj meg többet
 FAQTitle: Miben segíthetünk?
-FAQText: Régóta megállapított tény, hogy az olvasó egy oldalról lesz, amikor megállapítja a tényt, ha megnézi annak elrendezését.
-FAQ1: Tervezd meg a GYIK oldaladat?
-FAQ1Answer: Ha a GYIK oldal több oldalból áll, akkor az egyik kritikus elem, amelyet figyelembe kell vennie, a navigációs sáv. Ha a keresősáv használata bonyolult, vagy nem hozza meg a kívánt eredményeket, az ügyfelek.
-FAQ2: Figyelemmel kíséri a GYIK oldal teljesítményét?
-FAQ2Answer: Ebben a részletes útmutatóban mélyen belemerülünk a GYIK teljes koncepciójába. Hogy felfedezzük a fő céljukat, és megtudjuk, hogyan segíthet abban, hogy több értékesítést és potenciális ügyfelet generáljon vállalkozása számára.
-FAQ3: Miért érdemes GYIK-oldalt készíteni?
-FAQ3Answer: Minden vállalkozás és termék webhelye tartalmaz egy sor alapértelmezett oldalt, például egy "Névjegy" oldalt, egy "Kapcsolat" oldalt, "Adatvédelmi irányelvek" oldalt és még sok mást. A GYIK oldal egyike azon kevés kötelező oldalaknak, amelyek szerepelnek ezen a listán.
-FAQ4: Rendszeresen frissíti az egyes oldalakat?
-FAQ4Answer: A legtöbb online támogató csapat minden nap órákat tölt értékes idejéből ezen általános kérdések megválaszolásával. Bár könnyen elkerülhető lett volna, ha elhelyez egy GYIK részt a webhelyen.
+FAQ1: Mennyibe kerül egy alkalmazás létrehozása?
+FAQ1Answer: Egyetlen pénzösszeget sem lehet idézni. A mobilalkalmazások létrehozása számos tényezőtől függ, a hatókörtől a költségvetésig. Vegye fel velünk a kapcsolatot, hogy megtudja, mennyibe kerülnek ezek a tényezők a projektjében, kérjen ingyenes támogatást szakértői csapatunktól! Ha például iOS- és Android-alkalmazásokat is szeretne, a platformok közötti fejlesztéshez mindkét platformhoz szakértői csapatra van szükség. Ez költségesebb lesz az Ön számára.
+FAQ2: Mennyi ideig tart egy mobilalkalmazás létrehozása?
+FAQ2Answer: Ez az alkalmazás összetettségétől, valamint a projekt jellegétől és szakaszától függ. Minden fázis más-más időt vesz igénybe, így ha már befejezte néhány fázist, például a projekt rövid leírását és a kutatást, akkor kevesebb időt vesz igénybe. Ellenkező esetben támogatjuk Önt abban, hogy előrelépjen anélkül, hogy időt vesztegetne a mobilalkalmazás elindítására jól felszerelt fejlesztőinkkel és szakértő személyzetünkkel.
+FAQ3: ''
+FAQ3Answer: ''
+FAQ4: ''
+FAQ4Answer: ''
 AnyQuestion: Kérdése van?
-AnyQuestionText: Küldje el kérdését e-mailben
+AnyQuestionText: Küldje el kérdését e-mail címünkre
 EnterYourEmail: Add meg az e-mail-címedet
-Submit: előterjeszt
-AboutTitle: Tehetséges emberekből álló, innovatív és marketing szakértőkből álló dinamikus csapat vagyunk
-AboutText: Ennek eléréséhez egységes nyelvtanra, kiejtésre és gyakoribb szavakra lenne szükség. Ha a kapott nyelv több nyelve.
-SatisfiedClients: Elégedett ügyfelek
-TeamMembers: Csapattagok
-Employee: Alkalmazott
-GetStaredTitle: Kezdjük el használni a Creative alkalmazást
-GetStartedText: Ezek jó módja annak, hogy elkezdje, ha valami hasonlót szeretne készíteni, vagy meglévő alkalmazásokból szeretne használni, ami csökkenti a fejlesztők költségeit, erőfeszítéseit és idejét.
-GetStartedButton: Induláshoz
-BlogTitle: Blogunk
-BlogText: Régóta megállapított tény, hogy az olvasó egy oldalról lesz, amikor megállapítja a tényt, ha megnézi annak elrendezését.
+Submit: Előterjeszt
 ContactUs: Kapcsolat
-ContactUsText: Régóta megállapított tény, hogy az olvasó egy oldalról lesz, amikor megállapítja a tényt, ha megnézi annak elrendezését.
 EnterYourName: Írd be a neved
 Subject: Tárgy
 EnterYourMessage: Írd be az üzenetedet
@@ -70,9 +45,9 @@ PricavyPolicy: Adatvédelem
 SelectLanguage: Válasszon nyelvet
 Subscribe: Előfizet
 NavbarItem1: OTTHON
-NavbarItem2: FUNKCIÓK
-NavbarItem3: ÜGYFÉL
+NavbarItem2: ''
+NavbarItem3: ''
 NavbarItem4: GYIK
-NavbarItem5: KÖRÜLBELÜL
-NavbarItem6: BLOG
+NavbarItem5: ''
+NavbarItem6: ''
 NavbarItem7: ÉRINTKEZÉS

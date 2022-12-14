@@ -1,28 +1,34 @@
 HomeMessageTitle: HARİKA!
-HomeMessageContent: Biz Startup Kreatif Ajansıyız
-HomeMessage: Farklı endüstrilerin ihtiyaçlarını analiz ettikten sonra özenle hazırlanmış tasarım ve tasarım, amaç ve sunum arasında büyük bir denge sağlar.
-ProductFeaturesTitle: Ürün Özellikleri
+WhoWeAre: Biz Kimiz?
+WhatIsMobile: Mobile App Nedir?
+OurInformation: Deneyimli Ekip
+HomeMessageContent: Biz Creative Solution olarak bir mobil yazılım geliştirme şirketiyiz
+HomeMessage: Deneyimli ekibimizle beraber hem IOS hem de Android tarafında uygulamalar geliştiren ve sonraki süreçleri yöneten bir ekibiz.
+HomeMessage2: Akıllı telefonlar ve tabletler gibi taşınabilir cihazlarda çalışması amaçlanan yazılım programlarının oluşturulmasına "mobil uygulama geliştirme hizmetleri" denir. Bu uygulamalar genellikle bir kullanıcı arayüzü ve tasarımı oluşturarak, uygulamanın mantığını kodlayarak, programı test ederek ve ardından bir App Store veya Google Play aracılığıyla indirilebilir hale getirerek geliştirilir.
+HomeMessage3: Ekibimizin profosyonel çalışma tarzıyla beraber araştırmaların ışığında sonuca ve hedefimize sağlıklı bir şekilde ulaşmak için çalışıyoruz.
+Features: Özellikler
+ProductFeaturesTitle: Uygulamaların Özellikleri
 ProductFeaturesText: Bir okuyucunun, düzenine bakıldığında yerleşik bir olguya sahip olacağı uzun zamandır bilinen bir gerçektir.
 DigitalDesign: Dijital Tasarım
-DigitalDesignText: Kart başlığı üzerine inşa etmek ve kartın büyük kısmını platformda oluşturmak için bazı hızlı örnek metinler.
+DigitalDesignText: İnovatif fikirlerle beraber ürünlerimizin dizaynını modern bir şekilde tasarlarız.
 UnlimitedColors: Sınırsız Renk
 UnlimitedColorsText: Güvenilir marka stanaads uyumlu kullanıcı exteible services College Anibh ocean euismod tincidunt laoreet.
-StrategySolutions: Strateji Çözümleri
-StrategySolutionsText: Ayrılmışlar, büyük bir okyanus regelaliası olan Semantik'in kıyısındaki Bookmarks korusunda yaşıyorlar.
-AwesomeSupport: Harika Destek
-AwesomeSupportText: Pasaj, jeneratör İnterneti yapmak için gerekli tüm gerekli gizli metin utanç verici bir şey olduğundan emin olmanız gerekir.
+StrategySolutions: Stratejik Çözümler
+StrategySolutionsText: Her zaman yeni fikirlere açık ve zamana ayak uyduran fikirler ve çözümlerle sizlerleyiz.
+AwesomeSupport: Destek
+AwesomeSupportText: Sadece iş sürecinde değil iş bittikten sonraki süreçte de her zaman yanınızdayız.
 TrulyMultipurpose: Gerçekten Çok Amaçlı
 TrulyMultipurposeText: Bir daha kendi acısını seven, peşinden koşan ya da kendi acısını elde etmeyi arzulayan kimse de yoktur, çünkü bu acıdır.
 EasyToCustomize: Özelleştirmesi Kolay
 EasyToCustomizeText: Donec dolor eget augue commodo varius Aenean iaculis arcu in est facilisis, vitae auctor ipsum aliquet.
-FeaturesTitle: Nasıl Çalışır?
+FeaturesTitle: Nasıl çalışıyoruz? ( Süreç nasıl ilerliyor?)
 FeaturesText: Bir okuyucunun, düzenine bakıldığında yerleşik bir olguya sahip olacağı uzun zamandır bilinen bir gerçektir.
 Explanation1Title: Bize fikrinizi söyleyin
-Explanation1Text: Bir okuyucunun, düzenine bakarken bir sayfanın okunabilir içeriğinden rahatsız olacağı uzun zamandır bilinen bir gerçektir. Lorem Ipsum'u kullanmanın amacı, az ya da çok sahip olmasıdır. Bir okuyucunun dikkatinin dağılacağı uzun zamandır bilinen bir gerçektir.
-Explanation2Title: Kullanıcılarla çıkış
-Explanation2Text: Kart başlığı üzerine inşa etmek ve kartın içeriğinin büyük kısmını oluşturmak için bazı hızlı örnek metinler. Moltin size platformu verir.
+Explanation1Text: İlk olarak bize istediğiniz iş ve aklınızdaki fikirlerle geliyorsunuz ve bunlar üzerinde beraber discussion yaptıktan sonra süreci planlıyoruz.
+Explanation2Title: Kullanıcı Bazlı Düşünme
+Explanation2Text: Kullanıcı dostu kullanımı kolay ve kullanırken anlaşılan uygulamalar çıkarıyoruz.
 Explanation3Title: Araştırma ve Geliştirme
-Explanation3Text: Yüksek ömürlü accusamus terry richardson ad kalamar. 3 kurt ay officia aute, non cupidatat kaykay dolor brunch. Gıda kamyonu quinoa nesciunt laborum eiusmod. Mizanpajlar için dolgu metni olarak yaygın kullanımı nedeniyle, okunamamak büyük önem taşımaktadır.
+Explanation3Text: Hangi alanda olursa olsun geniş çaplı bir araştırma yapılarak piyasanın durumuna ve bütün etkenler düşünülerek çok yönlü bir ürün ortaya çıkaracağız.
 VideoTitle: Video Sunumu
 VideoText: Farkındalık yaratmak, trafik çekmek, bağlantı kurmak için ihtiyacınız olan her şeyi sağlayabilecek Kreatif ile çalışmaya başlayın.
 ClientTitle: Müşteriniz ne diyor?
@@ -37,10 +43,10 @@ ComplateProject: Complate Projesi
 LearnMore: Daha fazla bilgi edinin
 FAQTitle: Size nasıl yardımcı olabiliriz?
 FAQText: Bir okuyucunun, düzenine bakıldığında yerleşik bir olguya sahip olacağı uzun zamandır bilinen bir gerçektir.
-FAQ1: SSS Sayfanızı Tasarlamak?
-FAQ1Answer: SSS sayfanız birden fazla sayfadan oluşuyorsa, göz önünde bulundurmanız gereken kritik bir öğe gezinme çubuğunuzdur. Arama çubuğunuzun kullanımı zorsa veya istenen sonuçları vermiyorsa, müşteriler.
-FAQ2: SSS Sayfasının Performansını İzliyor musunuz?
-FAQ2Answer: Bu ayrıntılı kılavuzda, tüm SSS kavramına derinlemesine dalacağız. Ana amaçlarını keşfetmek ve işletmeniz için daha fazla satış ve potansiyel müşteri oluşturmaya nasıl yardımcı olabileceğini öğrenmek.
+FAQ1: Bir uygulama oluşturmanın maliyeti nedir?
+FAQ1Answer: Tek bir parasal miktar teklif etmek mümkün değildir. Bir mobil uygulama oluşturmak, kapsamdan bütçeye kadar birçok faktöre bağlıdır. Bu faktörlerin sizin projenizdeki maliyetini öğrenmek için bizimle iletişime geçin, uzman ekibimizden ücretsiz destek alın! Örneğin, hem iOS hem de Android uygulaması istiyorsanız, platformlar arası geliştirme için her iki platform için bir uzman ekibi gerekir. Bu sizin için daha maliyetli olacaktır.
+FAQ2: Bir mobil uygulama oluşturmak ne kadar sürer?
+FAQ2Answer: Bu, uygulamanızın karmaşıklığına ve projenizin yapısına ve aşamasına bağlıdır. Her aşama farklı bir zaman alır, bu nedenle proje özetini yazmak ve araştırma yapmak gibi bazı aşamaları zaten tamamladıysanız, daha az zaman alacaktır. Aksi taktirde de donanımlı geliştiricilerimiz ve uzman kadromuz ile mobil uygulamanızı piyasaya sürmek için zaman kaybetmeden ilerlemeniz konusunda destek olmaktayız.
 FAQ3: Neden bir SSS Sayfası oluşturmalısınız?
 FAQ3Answer: Her işletme ve ürün web sitesi, "Hakkında" sayfası, "İletişim" sayfası, "Gizlilik Politikası" sayfası ve daha fazlası gibi bir dizi varsayılan sayfayla birlikte gelir. SSS sayfası, bu listedeki birkaç olmazsa olmaz sayfadan biridir.
 FAQ4: Her sayfayı düzenli olarak mı güncelliyorsunuz?
@@ -68,11 +74,11 @@ SendMessage: Mesaj Gönder
 TermsAndCondition: Şartlar & Koşullar
 PricavyPolicy: Gizlilik Politikası
 SelectLanguage: Dil seçin
-Subscribe: Abone olmak
+Subscribe: Abone ol
 NavbarItem1: EV
 NavbarItem2: ÖZELLİK
 NavbarItem3: MÜŞTERİ
 NavbarItem4: SSS
 NavbarItem5: HAKKINDA
 NavbarItem6: BLOG
-NavbarItem7: TEMAS
+NavbarItem7: BİZE ULAŞIN

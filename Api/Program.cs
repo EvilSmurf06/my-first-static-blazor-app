@@ -2,6 +2,12 @@ using System.Threading.Tasks;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Azure.Functions.Worker.Configuration;
+using System.Net.Mail;
+using System.Net;
+using System;
+using System.Configuration;
+using Microsoft.Extensions.DependencyInjection;
+using Api;
 
 namespace ApiIsolated
 {
@@ -9,11 +15,14 @@ namespace ApiIsolated
     {
         public static void Main()
         {
-            var host = new HostBuilder()
+
+
+
+            var host = new HostBuilder()            
                 .ConfigureFunctionsWorkerDefaults()
                 .Build();
-
             host.Run();
         }
+
     }
 }

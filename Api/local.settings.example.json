@@ -9,4 +9,5 @@
     "CORS": "*",
     "CORSCredentials": false
   }
+
 }

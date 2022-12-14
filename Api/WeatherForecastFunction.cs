@@ -2,6 +2,7 @@ using System;
 using System.Linq;
 using System.Net;
 using BlazorApp.Shared;
+using Microsoft.AspNetCore.Cors;
 using Microsoft.Azure.Functions.Worker;
 using Microsoft.Azure.Functions.Worker.Http;
 using Microsoft.Extensions.Logging;
@@ -16,7 +17,7 @@ namespace ApiIsolated
         {
             _logger = loggerFactory.CreateLogger<HttpTrigger>();
         }
-
+        [EnableCors("DevCorsPolicy2")]
         [Function("WeatherForecast")]
         public HttpResponseData Run([HttpTrigger(AuthorizationLevel.Anonymous, "get")] HttpRequestData req)
         {

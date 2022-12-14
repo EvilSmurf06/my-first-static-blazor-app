@@ -1,66 +1,41 @@
-HomeMessageTitle: ¡GENIAL!
-HomeMessageContent: Somos Agencia Creativa de Startups
-HomeMessage: Cuidadosamente elaborado después de analizar las necesidades de diferentes industrias y el diseño logra un gran equilibrio entre propósito y presentación.
-ProductFeaturesTitle: Características del producto
-ProductFeaturesText: Es un hecho establecido desde hace mucho tiempo que un lector será de una página cuando se establezca un hecho mirando su diseño.
+HomeMessageTitle: ¡HARİKA!
+WhoWeAre: ¿Quiénes somos?
+WhatIsMobile: ¿Qué es la aplicación móvil?
+OurInformation: Equipo experimentado
+HomeMessageContent: Nosotros, Creative Solution, somos una empresa de desarrollo de software móvil.
+HomeMessage: Junto con nuestro experimentado equipo, somos un equipo que desarrolla aplicaciones tanto en IOS como en Android y gestiona los siguientes procesos.
+HomeMessage2: La creación de programas de software destinados a ejecutarse en dispositivos portátiles como teléfonos inteligentes y tabletas se denominan "servicios de desarrollo de aplicaciones móviles". Estas aplicaciones generalmente se desarrollan creando una interfaz de usuario y un diseño, codificando la lógica de la aplicación, probando el programa y luego poniéndolo a disposición para su descarga a través de una App Store o Google Play.
+HomeMessage3: Junto con el estilo de trabajo profesional de nuestro equipo, estamos trabajando para alcanzar el resultado y nuestro objetivo de una manera saludable a la luz de la investigación.
+Features: Características
+ProductFeaturesTitle: Características de las aplicaciones
 DigitalDesign: Diseño Digital
-DigitalDesignText: Algún texto de ejemplo rápido para construir sobre el título de la tarjeta y constituir la mayor parte de la tarjeta de la plataforma.
-UnlimitedColors: Colores ilimitados
-UnlimitedColorsText: Marca creíble stanaads compatible usuario servicios exteible Colegio Anibh océano euismod tincidunt laoreet.
+DigitalDesignText: Junto con ideas innovadoras, diseñamos el diseño de nuestros productos de una manera moderna.
 StrategySolutions: Soluciones estratégicas
-StrategySolutionsText: Separados viven en la arboleda de marcadores justo en la costa de la Semántica, una gran regelialia oceánica.
-AwesomeSupport: Soporte impresionante
-AwesomeSupportText: Pasaje que necesita seguro que hay algo que abarca el texto oculto todo lo necesario haciendo generador de Internet.
-TrulyMultipurpose: Verdaderamente multipropósito
-TrulyMultipurposeText: Tampoco hay nadie que ame o persiga o desee obtener el dolor de sí mismo, porque es dolor.
-EasyToCustomize: Fácil de personalizar
-EasyToCustomizeText: Donec dolor eget augue commodo varius Aenean iaculis arcu in est facilisis, vitae auctor ipsum aliquet.
-FeaturesTitle: ¿Cómo funciona?
-FeaturesText: Es un hecho establecido desde hace mucho tiempo que un lector será de una página cuando se establezca un hecho mirando su diseño.
-Explanation1Title: Cuéntanos tu idea
-Explanation1Text: Es un hecho establecido desde hace mucho tiempo que un lector se distraerá con el contenido legible de una página cuando mire su diseño. El punto de usar Lorem Ipsum es que tiene un más o menos. Es un hecho establecido desde hace mucho tiempo que un lector se distraerá.
-Explanation2Title: Debut con los usuarios
-Explanation2Text: Un texto de ejemplo rápido para construir sobre el título de la tarjeta y constituir la mayor parte del contenido de la tarjeta. Moltin te da la plataforma.
-Explanation3Title: Investigación y desarrollo
-Explanation3Text: Alta vida accusamus terry richardson ad squid. 3 Wolf Moon Officia Aute, Non Cupidatat Skateboard Dolor Brunch. Food truck quinoa nesciunt laborum eiusmod. Debido a su uso generalizado como texto de relleno para diseños, la no legibilidad es de gran importancia.
-VideoTitle: Video Presentación
-VideoText: Comience a trabajar con Creative que puede proporcionar todo lo que necesita para generar conciencia, generar tráfico y conectarse.
-ClientTitle: Lo que dice tu cliente
-ClientText: El Gran Oxmox le aconsejó que no lo hiciera, porque había miles de comas malas, signos de interrogación salvajes y metus molestie pulvinar tortuoso sed Semikoli.
-Client1Comment: ' Comunicación muy bien pensada y articulada. Hitos claros, plazos y trabajo rápido. Paciencia. Paciencia infinita. Sin atajos. Incluso si el cliente está siendo descuidado. La mejor parte... siempre resolviendo problemas con grandes ideas originales!. '
-Client2Comment: ' Se ve perfecto en todos los principales navegadores, tabletas y dispositivos móviles. Todos los archivos están organizados, creemos que será fácil de usar y editar. Esta plantilla está bien organizada y es muy fácil de personalizar. Hemos añadido una versión oscura con RTL compatible. '
-Client3Comment: ' Todos los sitios web de tus clientes si eres una agencia o autónomo. Tiene todas las herramientas necesarias para crear sitios web receptivos súper rápidos con una experiencia de usuario increíble. Nuestra creciente biblioteca de componentes y diseños prediseñados le harán la vida más fácil. '
-StatisticVariableTitle: Somos Landing Page creativos digitales
-StatisticVariableText: La diferencia entre una persona exitosa y los demás no es una falta de fuerza, no una falta de conocimiento, sino más bien una falta de voluntad. Compuesto en una lengua pseudolatina a la que corresponde una lengua más o menos pseudolatina.
-UsingUser: Usuario feliz
-ComplateProject: Completar proyecto
+StrategySolutionsText: Siempre estamos abiertos a nuevas ideas y con ideas y soluciones que se mantengan al día con los tiempos.
+AwesomeSupport: Apoyo
+AwesomeSupportText: Siempre estamos con usted no solo durante el proceso de trabajo, sino también en el proceso posterior al trabajo.
+FeaturesTitle: ¿Cómo va el proceso?
+Explanation1Title: Cuéntanos tu opinión
+Explanation1Text: Primero, vienes a nosotros con el trabajo que quieres y las ideas en tu mente, y planeamos el proceso después de discutirlas juntos.
+Explanation2Title: Pensamiento del usuario
+Explanation2Text: Producimos aplicaciones que son fáciles de usar y fáciles de usar.
+Explanation3Title: Investigación y Desarrollo
+Explanation3Text: Independientemente del campo, haremos una investigación de amplio alcance, teniendo en cuenta el estado del mercado y todos los factores, y crearemos un producto versátil.
 LearnMore: Aprende más
 FAQTitle: ¿Cómo podemos ayudarte?
-FAQText: Es un hecho establecido desde hace mucho tiempo que un lector será de una página cuando se establezca un hecho mirando su diseño.
-FAQ1: ¿Diseña tu página de preguntas frecuentes?
-FAQ1Answer: Si su página de preguntas frecuentes consta de varias páginas, entonces un elemento crítico que deberá considerar es su barra de navegación. Si su barra de búsqueda es difícil de usar o no produce los resultados deseados, clientes.
-FAQ2: ¿Supervisar el rendimiento de la página de preguntas frecuentes?
-FAQ2Answer: En esta guía detallada, vamos a profundizar en todo el concepto de preguntas frecuentes. Para descubrir su propósito principal y descubrir cómo puede ayudar a generar más ventas y clientes potenciales para su negocio.
-FAQ3: ¿Por qué deberías hacer una página de preguntas frecuentes?
-FAQ3Answer: Cada sitio web de negocios y productos viene con un conjunto de páginas predeterminadas como una página "Acerca de", una página de "Contacto", una página de "Política de privacidad" y más. Una página de preguntas frecuentes es una de las pocas páginas imprescindibles en esta lista.
-FAQ4: ¿Actualizar regularmente cada página?
-FAQ4Answer: La mayoría de los equipos de soporte en línea pasan horas de su valioso tiempo todos los días respondiendo estas preguntas generales. Si bien podría haberse evitado fácilmente colocando una sección de preguntas frecuentes en el sitio web.
+FAQ1: ¿Cuánto cuesta crear una aplicación?
+FAQ1Answer: No es posible cotizar una sola cantidad monetaria. La creación de una aplicación móvil depende de muchos factores, desde el alcance hasta el presupuesto. Contáctenos para averiguar el costo de estos factores en su proyecto, ¡obtenga soporte gratuito de nuestro equipo de expertos! Por ejemplo, si desea aplicaciones iOS y Android, el desarrollo multiplataforma requiere un equipo de expertos para ambas plataformas. Esto será más costoso para usted.
+FAQ2: ¿Cuánto tiempo se tarda en crear una aplicación móvil?
+FAQ2Answer: Esto depende de la complejidad de su aplicación y de la naturaleza y etapa de su proyecto. Cada fase toma una cantidad diferente de tiempo, por lo que si ya ha completado algunas fases como escribir el resumen del proyecto y hacer una investigación, tomará menos tiempo. De lo contrario, lo apoyamos para avanzar sin perder tiempo para iniciar su aplicación móvil con nuestros desarrolladores bien equipados y personal experto.
+FAQ3: ''
+FAQ3Answer: ''
+FAQ4: ''
+FAQ4Answer: ''
 AnyQuestion: ¿Tienes alguna pregunta?
-AnyQuestionText: Envíe su pregunta en nuestro correo
+AnyQuestionText: Envíe su pregunta a nuestro correo electrónico
 EnterYourEmail: Introduce tu email
 Submit: Enviar
-AboutTitle: Somos un equipo dinámico de personas talentosas de expertos en marketing e innovadores
-AboutText: Para lograr esto, sería necesario tener una gramática uniforme, pronunciación y palabras más comunes. Si varios idiomas del idioma resultante.
-SatisfiedClients: Clientes satisfechos
-TeamMembers: Miembros del equipo
-Employee: Empleado
-GetStaredTitle: Comencemos con Creative
-GetStartedText: Son una buena manera de comenzar si desea crear algo similar o usar aplicaciones existentes, lo que reducirá el costo, los esfuerzos y el tiempo de los desarrolladores.
-GetStartedButton: Comenzar
-BlogTitle: Nuestro Blog
-BlogText: Es un hecho establecido desde hace mucho tiempo que un lector será de una página cuando se establezca un hecho mirando su diseño.
 ContactUs: Contáctenos
-ContactUsText: Es un hecho establecido desde hace mucho tiempo que un lector será de una página cuando se establezca un hecho mirando su diseño.
 EnterYourName: Ingrese su nombre
 Subject: Asunto
 EnterYourMessage: Introduce tu mensaje
@@ -70,9 +45,9 @@ PricavyPolicy: Política de privacidad
 SelectLanguage: Seleccionar idioma
 Subscribe: Subscribir
 NavbarItem1: HOGAR
-NavbarItem2: FUNCIONES
-NavbarItem3: CLIENTE
+NavbarItem2: ''
+NavbarItem3: ''
 NavbarItem4: Preguntas más frecuentes
-NavbarItem5: ACERCA DE
-NavbarItem6: BLOG
+NavbarItem5: ''
+NavbarItem6: ''
 NavbarItem7: CONTACTO
