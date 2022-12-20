@@ -1488,10 +1488,9 @@ ul.pattern .color6 {
   color: #f8f9fa;
   content: var(--bs-breadcrumb-divider, "->");
 }
-.swiper {
+.swiper-container {
     width: 100%;
 }
-
 .swiper-slide {
     background-size: cover;
     background-position: 50%;

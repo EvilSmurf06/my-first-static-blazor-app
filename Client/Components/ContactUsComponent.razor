@@ -1,7 +1,8 @@
 ﻿@using BlazorApp.Shared;
+@using System.Net.Mail;
 @inject ILanguageContainerService languageContainer
 @inject HttpClient Http
-
+@inject IJSRuntime JS
 <section class="section bg-light" id="contact">
     <div class="container">
         <div class="row justify-content-center">
@@ -21,11 +22,10 @@
                         <i class="mdi mdi-web align-middle text-muted fs-20 me-2"></i> <span class="fw-medium"><a href="www.techupmaster.com">www.techupmaster.com</a></span>
                     </p>
                     <p class="mb-3">
-                        <i class="mdi mdi-hospital-building text-muted fs-20 me-2"></i> <span class="fw-medium">9:00 - 18:00</span>
+                        <i class="mdi mdi-hospital-building text-muted fs-20 me-2"></i> <span class="fw-medium">@languageContainer.Keys["WorkingHour"]</span>
                     </p>
                     <p class="mb-3">
-                        <i class="mdi mdi-map-marker-outline text-muted fs-20 me-2"></i> <span class="fw-medium">Caddebostan Mahallesi
-                            Ogün Sokak No:2 Kadıköy/İstanbul</span>
+                        <i class="mdi mdi-map-marker-outline text-muted fs-20 me-2"></i> <span class="fw-medium">@languageContainer.Keys["Address"]</span>
                     </p>
                 </div>
                 <!--end contact-details-->
@@ -88,6 +88,7 @@
     private string? name;
 
 
+
     protected override async Task OnInitializedAsync()
     {
         languageContainer.SetLanguage(System.Globalization.CultureInfo.GetCultureInfo(CultureCode));
@@ -96,13 +97,32 @@
     }
     private async Task AddItem()
     {
-        if(body != null && title != null){
+        if(body != null && title != null && IsValidEmail(title)){
 
-        var addItem = new SendMail { Title = title, Body = body, Name = name };
-        await Http.PostAsJsonAsync("api/ProductsGet", addItem);
+
+            var addItem = new SendMail { Title = title, Body = body, Name = name };
+            await Http.PostAsJsonAsync("api/ProductsGet", addItem);
+        }
+        else
+        {
+            await JS.InvokeAsync<string>("showError", new string[] { "Lütfen gerekli alanları doldurup tekrar deneyiniz." });
         }
 
     }
+    private static bool IsValidEmail(string email)
+    {
+        var valid = true;
 
+        try
+        {
+            var emailAddress = new MailAddress(email);
+        }
+        catch
+        {
+            valid = false;
+        }
+
+        return valid;
+    }
     
 }

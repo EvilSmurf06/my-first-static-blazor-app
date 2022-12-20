@@ -1,36 +1,36 @@
-Language1: TURKIJE
-Language2: ENGELS
-Language3: DUITS
-Language4: FRANS
-Language5: NEDERLANDS
+Language1: Turkije
+Language2: Engels
+Language3: Duits
+Language4: Frans
+Language5: Nederlands
 WhoWeAre: Wie zijn wij?
-WhatIsMobile: Wat is mobiele app?
+WhatIsMobile: Laten we samen beslissen
 OurInformation: Ervaren Team
 HomeMessageContent: Wij, Creative Solution, zijn een bedrijf voor de ontwikkeling van mobiele software.
-HomeMessage: Samen met ons ervaren team zijn we een team dat applicaties ontwikkelt op zowel IOS als Android en de volgende processen beheert.
-HomeMessage2: Het maken van softwareprogramma's die bedoeld zijn om te draaien op draagbare apparaten zoals smartphones en tablets worden "mobiele applicatie-ontwikkelingsservices" genoemd. Deze apps worden meestal ontwikkeld door een gebruikersinterface en ontwerp te maken, de logica van de app te coderen, het programma te testen en het vervolgens beschikbaar te maken voor download via een App Store of Google Play.
+HomeMessage: Samen met ons ervaren team zijn wij een team dat zowel aan de kant van mobiele applicaties als aan de kant van de webapplicaties bij u staat, zowel tijdens de bouwfase als tijdens de ondersteuningsfase in het volgende proces.
+HomeMessage2: Laten we samen beslissen om oplossingen te vinden en te ontwikkelen voor al uw behoeften op elk platform.
 HomeMessage3: Samen met de professionele werkstijl van ons team werken we aan het resultaat en ons doel op een gezonde manier in het licht van onderzoek.
 Features: Functies
-ProductFeaturesTitle: Kenmerken van toepassingen
-DigitalDesign: Digitaal ontwerp
-DigitalDesignText: Samen met innovatieve ideeën ontwerpen we het ontwerp van onze producten op een moderne manier.
-StrategySolutions: Strategische oplossingen
-StrategySolutionsText: We staan altijd open voor nieuwe ideeën en met ideeën en oplossingen die met de tijd meegaan.
-AwesomeSupport: Steunen
-AwesomeSupportText: Wij zijn altijd bij u, niet alleen tijdens het werkproces, maar ook in het proces nadat het werk is voltooid.
-FeaturesTitle: Hoe verloopt het proces?
-Explanation1Title: Vertel ons uw mening
-Explanation1Text: Eerst kom je bij ons met het werk dat je wilt en de ideeën in je hoofd, en we plannen het proces nadat we ze samen hebben besproken.
-Explanation2Title: Denken van gebruikers
-Explanation2Text: Wij produceren toepassingen die gebruiksvriendelijk en gebruiksvriendelijk zijn.
-Explanation3Title: Onderzoek & Ontwikkeling
-Explanation3Text: Ongeacht het veld, zullen we een breed onderzoek doen, rekening houdend met de staat van de markt en alle factoren, en we zullen een veelzijdig product creëren.
+ProductFeaturesTitle: Wat we doen
+DigitalDesign: Ontwikkeling van mobiele applicaties
+DigitalDesignText: Wij voeren uw projecten specifiek naar uw wensen en staan open voor de innovaties van de moderne wereld naar de mobiele omgeving.
+StrategySolutions: Moderne ontwikkeling van webapplicaties
+StrategySolutionsText: Wij stellen u in staat om een moderne website te hebben om in de digitale wereld te stappen.
+AwesomeSupport: Software architectuur ondersteunt
+AwesomeSupportText: Vanaf het begin zorgen we voor de architecturale structuur en alle noodzakelijke dingen voordat we aan een heel project beginnen.
+FeaturesTitle: Hoe gaan we te werk?
+Explanation1Title: Wij luisteren naar u
+Explanation1Text: We luisteren naar uw droomproject met al zijn details en we bereiden een productievere en geschiktere basis voor de toekomst voor door er aantekeningen over te maken.
+Explanation2Title: We doen suggesties
+Explanation2Text: Naar aanleiding van de aantekeningen die we hebben gemaakt en het onderzoek dat we daarna hebben gedaan, zullen we u suggesties geven over wat voor soort resultaat eruit zal komen.
+Explanation3Title: We beslissen samen
+Explanation3Text: We nemen een beslissing in het licht van de gemaakte aantekeningen en het werk dat door zowel u als ons is gedaan. We starten het project zo snel mogelijk en met de meest geschikte roadmap.
 LearnMore: Meer informatie
 FAQTitle: Hoe kunnen wij u helpen?
-FAQ1: Hoeveel kost het om een app te bouwen?
-FAQ1Answer: Het is niet mogelijk om een enkel geldbedrag te noemen. Het bouwen van een mobiele app is afhankelijk van vele factoren, van scope tot budget. Neem contact met ons op om de kosten van deze factoren in uw project te achterhalen, krijg gratis ondersteuning van ons deskundige team! Als u bijvoorbeeld zowel iOS- als Android-apps wilt, vereist platformonafhankelijke ontwikkeling een team van experts voor beide platforms. Dit zal duurder voor u zijn.
-FAQ2: Hoe lang duurt het om een mobiele app te maken?
-FAQ2Answer: Dit is afhankelijk van de complexiteit van uw aanvraag en de aard en fase van uw project. Elke fase neemt een andere hoeveelheid tijd in beslag, dus als je al enkele fasen hebt voltooid, zoals het schrijven van de projectbrief en het doen van onderzoek, kost het minder tijd. Anders ondersteunen we u om verder te gaan zonder tijd te verspillen om uw mobiele applicatie te lanceren met onze goed uitgeruste ontwikkelaars en deskundig personeel.
+FAQ1: Als meertalige ondersteuning nodig is, is uw technische infrastructuur dan geschikt?
+FAQ1Answer: Een van de reflecties van het nieuwe tijdperk op de softwarewereld is dat de applicaties meertalig zijn. Meertalige bediening in onze producten en applicaties maakt deel uit van softwaretechnologieën van de nieuwe generatie. U kunt erachter komen welke talen onze producten ondersteunen, door contact op te nemen met onze productmanagers of door de productpagina te openen.
+FAQ2: Ontwikkelt u projecten in het buitenland?
+FAQ2Answer: Voor ons maakt het feit dat een project nationaal of internationaal is geen verschil in de planning en uitvoering van het project. Als infrastructuur kunnen onze producten in verschillende landen worden gebruikt, omdat ze al meertalig zijn.
 FAQ3: ''
 FAQ3Answer: ''
 FAQ4: ''
@@ -55,3 +55,5 @@ NavbarItem4: FAQ
 NavbarItem5: ''
 NavbarItem6: ''
 NavbarItem7: CONTACT
+Address: Caddebostan-district Ogun straat Nee:2 Kadıkoy/Istanbul
+WorkingHour:  9:00 - 18:00

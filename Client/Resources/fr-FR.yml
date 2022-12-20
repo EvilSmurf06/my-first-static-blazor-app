@@ -1,36 +1,36 @@
-Language1: TURQUIE
-Language2: ANGLAIS
-Language3: ALLEMAND
-Language4: FRANÇAIS
+Language1: Turquie
+Language2: Anglais
+Language3: Allemand
+Language4: Français
 Language5: Néerlandais
 WhoWeAre: Qui sommes-nous?
-WhatIsMobile: Qu’est-ce qu’une application mobile?
+WhatIsMobile: Décidons ensemble
 OurInformation: Équipe expérimentée
 HomeMessageContent: Nous, Creative Solution, sommes une société de développement de logiciels mobiles.
-HomeMessage: Avec notre équipe expérimentée, nous sommes une équipe qui développe des applications sur IOS et Android et gère les processus suivants.
-HomeMessage2: La création de logiciels destinés à fonctionner sur des appareils portables tels que les smartphones et les tablettes est appelée « services de développement d’applications mobiles ». Ces applications sont généralement développées en créant une interface utilisateur et une conception, en codant la logique de l’application, en testant le programme, puis en le rendant disponible au téléchargement via un App Store ou Google Play.
+HomeMessage: Avec notre équipe expérimentée, nous sommes une équipe qui est avec vous tant du côté des applications mobiles que du côté des applications Web, à la fois pendant la phase de construction et pendant la phase de support dans le processus suivant.
+HomeMessage2: Décidons ensemble de trouver et de développer des solutions pour tous vos besoins sur toutes les plateformes.
 HomeMessage3: Avec le style de travail professionnel de notre équipe, nous travaillons pour atteindre le résultat et notre objectif d’une manière saine à la lumière de la recherche.
 Features: Fonctionnalités
-ProductFeaturesTitle: Caractéristiques des applications
-DigitalDesign: Conception numérique
-DigitalDesignText: Avec des idées innovantes, nous concevons le design de nos produits de manière moderne.
-StrategySolutions: Solutions stratégiques
-StrategySolutionsText: Nous sommes toujours ouverts aux nouvelles idées et aux idées et solutions qui suivent l’air du temps.
-AwesomeSupport: Soutien
-AwesomeSupportText: Nous sommes toujours avec vous non seulement pendant le processus de travail, mais aussi dans le processus après la fin du travail.
-FeaturesTitle: Comment se déroule le processus?
-Explanation1Title: Faites-nous part de votre avis
-Explanation1Text: Tout d’abord, vous venez nous voir avec le travail que vous voulez et les idées en tête, et nous planifions le processus après en avoir discuté ensemble.
-Explanation2Title: Pensée utilisateur
-Explanation2Text: Nous produisons des applications conviviales et faciles à utiliser.
-Explanation3Title: Recherche & Développement
-Explanation3Text: Quel que soit le domaine, nous ferons une vaste recherche, en tenant compte de l’état du marché et de tous les facteurs, et nous créerons un produit polyvalent.
+ProductFeaturesTitle: Ce que nous faisons
+DigitalDesign: Développement d’applications mobiles
+DigitalDesignText: Nous portons vos projets spécifiques à vos souhaits et ouverts aux innovations du monde moderne à l’environnement mobile.
+StrategySolutions: Développement d’applications Web modernes
+StrategySolutionsText: Nous vous permettons d’avoir un site Web moderne pour entrer dans le monde numérique.
+AwesomeSupport: Prise en charge de l’architecture logicielle
+AwesomeSupportText: Dès le début, nous fournissons la structure architecturale et toutes les choses nécessaires avant de nous lancer dans un projet entier.
+FeaturesTitle: Comment travaillons-nous?
+Explanation1Title: Nous sommes à votre écoute
+Explanation1Text: Nous écoutons votre projet de rêve avec tous ses détails et nous préparons un terrain plus productif et adapté pour l’avenir en prenant des notes sur eux.
+Explanation2Title: Nous faisons des suggestions
+Explanation2Text: À la suite des notes que nous avons prises et des recherches que nous avons faites par la suite, nous vous donnerons des suggestions sur le type de résultat qui en sortira.
+Explanation3Title: Nous décidons ensemble
+Explanation3Text: Nous prenons une décision à la lumière des notes prises et du travail effectué par vous et nous. Nous démarrons le projet dès que possible et avec la feuille de route la plus appropriée.
 LearnMore: Pour en savoir plus
 FAQTitle: Comment pouvons-nous vous aider?
-FAQ1: Combien coûte la création d’une application ?
-FAQ1Answer: Il n’est pas possible de citer un seul montant monétaire. La création d’une application mobile dépend de nombreux facteurs, de la portée au budget. Contactez-nous pour connaître le coût de ces facteurs dans votre projet, obtenez un soutien gratuit de notre équipe d’experts! Par exemple, si vous voulez à la fois des applications iOS et Android, le développement multiplateforme nécessite une équipe d’experts pour les deux plates-formes. Cela vous coûtera plus cher.
-FAQ2: Combien de temps faut-il pour créer une application mobile ?
-FAQ2Answer: Cela dépend de la complexité de votre demande ainsi que de la nature et de l’étape de votre projet. Chaque phase prend un temps différent, donc si vous avez déjà terminé certaines phases comme la rédaction de l’énoncé de projet et la recherche, cela prendra moins de temps. Sinon, nous vous aidons à aller de l’avant sans perdre de temps à lancer votre application mobile avec nos développeurs bien équipés et notre personnel expert.
+FAQ1: Si un support multilingue est nécessaire, votre infrastructure technique est-elle adaptée ?
+FAQ1Answer: L’un des reflets de la nouvelle ère sur le monde du logiciel est que les applications sont multilingues. Le fonctionnement multilingue de nos produits et applications fait partie des technologies logicielles de nouvelle génération. Vous pouvez savoir quelles langues nos produits prennent en charge, en contactant nos chefs de produit ou en accédant à la page produit.
+FAQ2: Vous développez des projets à l’étranger ?
+FAQ2Answer: Pour nous, le fait qu’un projet soit national ou international ne fait aucune différence dans la planification et la mise en œuvre du projet. En tant qu’infrastructure, nos produits peuvent être utilisés dans différents pays car ils sont déjà multilingues.
 FAQ3: ''
 FAQ3Answer: ''
 FAQ4: ''
@@ -55,3 +55,6 @@ NavbarItem4: FAQ
 NavbarItem5: ''
 NavbarItem6: ''
 NavbarItem7: CONTACT
+Address: District de Caddebostan Rue Ogun Non:2 Kadıkoy/Istanbul
+WorkingHour:  9:00 - 18:00
+

@@ -9,14 +9,13 @@ OurInformation: Deneyimli Ekip
 HomeMessageContent: Biz Creative Solution olarak bir mobil yazılım geliştirme şirketiyiz
 HomeMessage: Deneyimli ekibimizle beraber hem mobil uygulamalar tarafında hem de web uygulamaları tarafında hem yapım aşamasını hem de sonraki süreçteki destek aşamasında yanınızda olan bir ekibiz.
 HomeMessage2: Bütün ihtiyaçlarınıza her platformda çözümler bulmak ve bunları geliştirmek için beraber karar verelim.
-HomeMessage3: Ekibimizin profosyonel çalışma tarzıyla beraber araştırmaların ışığında sonuca ve hedefimize sağlıklı bir şekilde ulaşmak için çalışıyoruz.
+HomeMessage3: Ekibimizin profesyonel çalışma tarzıyla beraber araştırmaların ışığında sonuca ve hedefimize sağlıklı bir şekilde ulaşmak için çalışıyoruz.
 Features: Özellikler
-ProductFeaturesTitle: Biz Neler Yapıyoruz
-ProductFeaturesText: Bir okuyucunun, düzenine bakıldığında yerleşik bir olguya sahip olacağı uzun zamandır bilinen bir gerçektir.
+ProductFeaturesTitle: Neler Yapıyoruz
 DigitalDesign: Mobil Uygulama Geliştirme
 DigitalDesignText: İsteklerinize özel ve modern dünyanın yeniliklerine açık projelerinizi mobil ortama taşıyoruz.
 StrategySolutions: Modern Web Uygulamaları Geliştirme
-StrategySolutionsText: Dijtal dünyaya adım atmak için modern bir internet sitesine sahip olmanızı sağlıyoruz. 
+StrategySolutionsText: Dijital dünyaya adım atmak için modern bir internet sitesine sahip olmanızı sağlıyoruz. 
 AwesomeSupport: Yazılım Mimari Destekleri
 AwesomeSupportText: Başlangıçtan başlayarak bütün bir projeye başlamadan önce gereken mimari yapıyı ve bütün gerekli her şeyi sağlıyoruz.
 FeaturesTitle: Nasıl çalışıyoruz?
@@ -67,3 +66,6 @@ NavbarItem4: SSS
 NavbarItem5: HAKKINDA
 NavbarItem6: BLOG
 NavbarItem7: BİZE ULAŞIN
+Address: Caddebostan Mahallesi Ogün Sokak No:2 Kadıköy/İstanbul
+WorkingHour:  9:00 - 18:00
+
