@@ -137,8 +137,8 @@ html {
 }
 
 .section {
-  padding-top: 80px;
-  padding-bottom: 80px;
+  padding-top: 50px;
+  padding-bottom: 50px;
   position: relative;
 }
 
@@ -1487,6 +1487,19 @@ ul.pattern .color6 {
   padding-right: 0.5rem;
   color: #f8f9fa;
   content: var(--bs-breadcrumb-divider, "->");
+}
+.swiper {
+    width: 100%;
+}
+
+.swiper-slide {
+    background-size: cover;
+    background-position: 50%;
+    min-height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .date-box {

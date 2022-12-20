@@ -1,52 +1,37 @@
-HomeMessageTitle: HARİKA!
+Language1: TÜRKÇE
+Language2: İNGİLİZCE
+Language3: ALMANCA
+Language4: FRANSIZCA
+Language5: FELEMENKÇE 
 WhoWeAre: Biz Kimiz?
-WhatIsMobile: Mobile App Nedir?
+WhatIsMobile: Beraber Karar Verelim
 OurInformation: Deneyimli Ekip
 HomeMessageContent: Biz Creative Solution olarak bir mobil yazılım geliştirme şirketiyiz
-HomeMessage: Deneyimli ekibimizle beraber hem IOS hem de Android tarafında uygulamalar geliştiren ve sonraki süreçleri yöneten bir ekibiz.
-HomeMessage2: Akıllı telefonlar ve tabletler gibi taşınabilir cihazlarda çalışması amaçlanan yazılım programlarının oluşturulmasına "mobil uygulama geliştirme hizmetleri" denir. Bu uygulamalar genellikle bir kullanıcı arayüzü ve tasarımı oluşturarak, uygulamanın mantığını kodlayarak, programı test ederek ve ardından bir App Store veya Google Play aracılığıyla indirilebilir hale getirerek geliştirilir.
+HomeMessage: Deneyimli ekibimizle beraber hem mobil uygulamalar tarafında hem de web uygulamaları tarafında hem yapım aşamasını hem de sonraki süreçteki destek aşamasında yanınızda olan bir ekibiz.
+HomeMessage2: Bütün ihtiyaçlarınıza her platformda çözümler bulmak ve bunları geliştirmek için beraber karar verelim.
 HomeMessage3: Ekibimizin profosyonel çalışma tarzıyla beraber araştırmaların ışığında sonuca ve hedefimize sağlıklı bir şekilde ulaşmak için çalışıyoruz.
 Features: Özellikler
-ProductFeaturesTitle: Uygulamaların Özellikleri
+ProductFeaturesTitle: Biz Neler Yapıyoruz
 ProductFeaturesText: Bir okuyucunun, düzenine bakıldığında yerleşik bir olguya sahip olacağı uzun zamandır bilinen bir gerçektir.
-DigitalDesign: Dijital Tasarım
-DigitalDesignText: İnovatif fikirlerle beraber ürünlerimizin dizaynını modern bir şekilde tasarlarız.
-UnlimitedColors: Sınırsız Renk
-UnlimitedColorsText: Güvenilir marka stanaads uyumlu kullanıcı exteible services College Anibh ocean euismod tincidunt laoreet.
-StrategySolutions: Stratejik Çözümler
-StrategySolutionsText: Her zaman yeni fikirlere açık ve zamana ayak uyduran fikirler ve çözümlerle sizlerleyiz.
-AwesomeSupport: Destek
-AwesomeSupportText: Sadece iş sürecinde değil iş bittikten sonraki süreçte de her zaman yanınızdayız.
-TrulyMultipurpose: Gerçekten Çok Amaçlı
-TrulyMultipurposeText: Bir daha kendi acısını seven, peşinden koşan ya da kendi acısını elde etmeyi arzulayan kimse de yoktur, çünkü bu acıdır.
-EasyToCustomize: Özelleştirmesi Kolay
-EasyToCustomizeText: Donec dolor eget augue commodo varius Aenean iaculis arcu in est facilisis, vitae auctor ipsum aliquet.
-FeaturesTitle: Nasıl çalışıyoruz? ( Süreç nasıl ilerliyor?)
-FeaturesText: Bir okuyucunun, düzenine bakıldığında yerleşik bir olguya sahip olacağı uzun zamandır bilinen bir gerçektir.
-Explanation1Title: Bize fikrinizi söyleyin
-Explanation1Text: İlk olarak bize istediğiniz iş ve aklınızdaki fikirlerle geliyorsunuz ve bunlar üzerinde beraber discussion yaptıktan sonra süreci planlıyoruz.
-Explanation2Title: Kullanıcı Bazlı Düşünme
-Explanation2Text: Kullanıcı dostu kullanımı kolay ve kullanırken anlaşılan uygulamalar çıkarıyoruz.
-Explanation3Title: Araştırma ve Geliştirme
-Explanation3Text: Hangi alanda olursa olsun geniş çaplı bir araştırma yapılarak piyasanın durumuna ve bütün etkenler düşünülerek çok yönlü bir ürün ortaya çıkaracağız.
-VideoTitle: Video Sunumu
-VideoText: Farkındalık yaratmak, trafik çekmek, bağlantı kurmak için ihtiyacınız olan her şeyi sağlayabilecek Kreatif ile çalışmaya başlayın.
-ClientTitle: Müşteriniz ne diyor?
-ClientText: Büyük Oxmox ona bunu yapmamasını tavsiye etti, çünkü binlerce kötü virgül, vahşi soru işareti ve hileli pulvinar metus molestie sed Semikoli vardı.
-Client1Comment: ' Çok iyi düşünülmüş ve iletişimi ifade eder. Net kilometre taşları, son teslim tarihleri ve hızlı çalışma. Sabır. Sonsuz sabır. Kısayol yok. Müşteri dikkatsiz olsa bile. En iyi yanı... her zaman harika orijinal fikirlerle sorunları çözmek!. '
-Client2Comment: ' Tüm büyük tarayıcılarda, tabletlerde ve mobil cihazlarda mükemmel görünür. Tüm dosyalar organize edilmiştir, kullanımlarının ve düzenlemelerinin kolay olacağına inanıyoruz. Bu şablon iyi organize edilmiş ve özelleştirilmesi çok kolaydır. RTL destekli bir Dark sürümü ekledik. '
-Client3Comment: ' Bir ajans veya serbest çalışansanız tüm müşteri web siteleri. İnanılmaz kullanıcı deneyimine sahip süper hızlı duyarlı web siteleri oluşturmak için gereken tüm araçlara sahiptir. Sürekli büyüyen bileşen kütüphanemiz ve önceden tasarlanmış mizanpajlarımız hayatınızı kolaylaştıracak. '
-StatisticVariableTitle: Biz dijital kreatif Açılış Sayfasıyız
-StatisticVariableText: Başarılı bir insan ile diğerleri arasındaki fark, güç eksikliği değil, bilgi eksikliği değil, irade eksikliğidir. Az ya da çok sahte Latince diline karşılık gelen sahte bir Latin dilinde bestelenmiştir.
-UsingUser: Mutlu Kullanıcı
-ComplateProject: Complate Projesi
+DigitalDesign: Mobil Uygulama Geliştirme
+DigitalDesignText: İsteklerinize özel ve modern dünyanın yeniliklerine açık projelerinizi mobil ortama taşıyoruz.
+StrategySolutions: Modern Web Uygulamaları Geliştirme
+StrategySolutionsText: Dijtal dünyaya adım atmak için modern bir internet sitesine sahip olmanızı sağlıyoruz. 
+AwesomeSupport: Yazılım Mimari Destekleri
+AwesomeSupportText: Başlangıçtan başlayarak bütün bir projeye başlamadan önce gereken mimari yapıyı ve bütün gerekli her şeyi sağlıyoruz.
+FeaturesTitle: Nasıl çalışıyoruz?
+Explanation1Title: Sizi Dinliyoruz
+Explanation1Text: Hayalinizdeki projeyi tüm detaylarıyla sizden dinliyoruz ve bunlar üzerinde notlar alarak ilerisi için daha verimli ve uygun bir zemin hazırlıyoruz.
+Explanation2Title: Önerilerde Bulunuyoruz
+Explanation2Text: Aldığımız notlar ve sonrasında yaptığımız araştırmaların sonucunda sizlere önerilerde bulunarak nasıl bir sonuç ortaya çıkacağı hakkında fikirler vereceğiz.
+Explanation3Title: Birlikte Karar Veriyoruz
+Explanation3Text: Hem sizin hem de bizim tarafımızda alınan notlar ve yapılan çalışmalar ışığında bir karar veriyoruz. En kısa sürede ve en uygun yol haritasıyla projeye başlıyoruz.
 LearnMore: Daha fazla bilgi edinin
 FAQTitle: Size nasıl yardımcı olabiliriz?
-FAQText: Bir okuyucunun, düzenine bakıldığında yerleşik bir olguya sahip olacağı uzun zamandır bilinen bir gerçektir.
-FAQ1: Bir uygulama oluşturmanın maliyeti nedir?
-FAQ1Answer: Tek bir parasal miktar teklif etmek mümkün değildir. Bir mobil uygulama oluşturmak, kapsamdan bütçeye kadar birçok faktöre bağlıdır. Bu faktörlerin sizin projenizdeki maliyetini öğrenmek için bizimle iletişime geçin, uzman ekibimizden ücretsiz destek alın! Örneğin, hem iOS hem de Android uygulaması istiyorsanız, platformlar arası geliştirme için her iki platform için bir uzman ekibi gerekir. Bu sizin için daha maliyetli olacaktır.
-FAQ2: Bir mobil uygulama oluşturmak ne kadar sürer?
-FAQ2Answer: Bu, uygulamanızın karmaşıklığına ve projenizin yapısına ve aşamasına bağlıdır. Her aşama farklı bir zaman alır, bu nedenle proje özetini yazmak ve araştırma yapmak gibi bazı aşamaları zaten tamamladıysanız, daha az zaman alacaktır. Aksi taktirde de donanımlı geliştiricilerimiz ve uzman kadromuz ile mobil uygulamanızı piyasaya sürmek için zaman kaybetmeden ilerlemeniz konusunda destek olmaktayız.
+FAQ1: Çoklu dil desteği gerekirse, teknik alt yapınız buna uygun mudur?
+FAQ1Answer: Yeni çağın yazılım dünyasına yansımalarından biri de uygulamaların çok dilli olmasıdır. Ürünlerimiz ve uygulmalarımızda çok dilli çalışabilmesi yeni nesil yazılım teknolojilerinin bir parçası olmaktadır. Ürünlerimizin hangi dilleri desteklediğini, ürün yöneticilerimizle görüşerek yada ürün sayfasına girerek öğrenebilirsiniz. 
+FAQ2: Yurtdışı Proje Geliştiriyor Musunuz?
+FAQ2Answer: Bizim için bir projenin ulusal veya uluslararası olması planlama ve projenin hayata geçmesi konusunda farklılık yaratmamaktadır. Alt yapı olarak ürünlerimiz zaten çok dilli olduğundan farklı ülkelerde de kullanılabilmektedirler.
 FAQ3: Neden bir SSS Sayfası oluşturmalısınız?
 FAQ3Answer: Her işletme ve ürün web sitesi, "Hakkında" sayfası, "İletişim" sayfası, "Gizlilik Politikası" sayfası ve daha fazlası gibi bir dizi varsayılan sayfayla birlikte gelir. SSS sayfası, bu listedeki birkaç olmazsa olmaz sayfadan biridir.
 FAQ4: Her sayfayı düzenli olarak mı güncelliyorsunuz?
@@ -75,8 +60,8 @@ TermsAndCondition: Şartlar & Koşullar
 PricavyPolicy: Gizlilik Politikası
 SelectLanguage: Dil seçin
 Subscribe: Abone ol
-NavbarItem1: EV
-NavbarItem2: ÖZELLİK
+NavbarItem1: ANA SAYFA
+NavbarItem2: NELER YAPIYORUZ
 NavbarItem3: MÜŞTERİ
 NavbarItem4: SSS
 NavbarItem5: HAKKINDA

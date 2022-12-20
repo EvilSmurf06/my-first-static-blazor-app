@@ -12,7 +12,7 @@ namespace BlazorApp.Shared
         private static void ConfigureServices(IConfiguration configuration,
 IServiceCollection services)
         {
-            // ...
+            
             
         }
     }

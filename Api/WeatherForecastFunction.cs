@@ -21,6 +21,8 @@ namespace ApiIsolated
         [Function("WeatherForecast")]
         public HttpResponseData Run([HttpTrigger(AuthorizationLevel.Anonymous, "get")] HttpRequestData req)
         {
+
+
             var randomNumber = new Random();
             var temp = 0;
 

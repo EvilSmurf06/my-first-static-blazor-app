@@ -8,6 +8,8 @@ using System;
 using System.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Api;
+using Microsoft.Extensions.Logging;
+using System.Net.Http;
 
 namespace ApiIsolated
 {
@@ -15,12 +17,9 @@ namespace ApiIsolated
     {
         public static void Main()
         {
+            var host = new HostBuilder().ConfigureFunctionsWorkerDefaults().Build();
 
 
-
-            var host = new HostBuilder()            
-                .ConfigureFunctionsWorkerDefaults()
-                .Build();
             host.Run();
         }
 

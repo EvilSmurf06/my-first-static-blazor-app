@@ -4,35 +4,25 @@ using BlazorApp.Client;
 using AKSoftware.Localization.MultiLanguages;
 using System.Reflection;
 using System.Globalization;
-
-
-
+using Microsoft.AspNetCore.Builder;
 
 var builder = WebAssemblyHostBuilder.CreateDefault(args);
 builder.RootComponents.Add<App>("#app");
 builder.RootComponents.Add<HeadOutlet>("head::after");
 builder.Services.AddLanguageContainer(Assembly.GetExecutingAssembly());
-builder.Services.AddScoped(sp => new HttpClient { BaseAddress = new Uri(builder.Configuration["API_Prefix"] ?? builder.HostEnvironment.BaseAddress) });
-builder.Services.AddCors(options =>
+builder.Services.AddScoped(sp => new HttpClient { BaseAddress = new Uri(builder.Configuration["API_Prefix"] ?? builder.HostEnvironment.BaseAddress)}) ;
+
+builder.Services.AddCors(policy =>
 {
-    options.AddPolicy("DevCorsPolicy", builder =>
-    {
-        builder
-            .AllowAnyOrigin()
-            .AllowAnyMethod()
-            .AllowAnyHeader();
-    });
+    policy.AddPolicy("_myAllowSpecificOrigins", builder =>
+     builder.WithOrigins("http://localhost:7071/")
+      .SetIsOriginAllowed((host) => true) // this for using localhost address
+      .AllowAnyMethod()
+      .AllowAnyHeader()
+      .AllowCredentials());
 });
-builder.Services.AddCors(options =>
-{
-    options.AddPolicy("DevCorsPolicy2", builder =>
-    {
-        builder
-            .AllowAnyOrigin()
-            .AllowAnyMethod()
-            .AllowAnyHeader();
-    });
-});
-var app = builder.Build();
+//
+//app.UseCors("_myAllowSpecificOrigins");
+
 await builder.Build().RunAsync();
 

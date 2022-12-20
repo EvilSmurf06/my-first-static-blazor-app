@@ -25,32 +25,9 @@ counter.forEach((counter_value) => {
 //
 /********************* Client-Slider js ************************/
 //
-function initSwiper() {
-var swiper = new Swiper(".testimonialslider", {
-  spaceBetween: 20,
-  loop: true,
-  autoplay: {
-    delay: 5000,
-    disableOnInteraction: false,
-  },
-  pagination: {
-    el: ".swiper-pagination",
-    clickable: true,
-  },
-  breakpoints: {
-    768: {
-      slidesPerView: 1,
-    }
-  }
-});
-    }
 function initSwiper2() {
     var swiper = new Swiper(".homeslider", {
-        spaceBetween: 10,
-        slidesPerView: 'auto',
-        freeMode: true,
-        watchSlidesVisibility: true,
-        watchSlidesProgress: true,
+        spaceBetween: 30,
         loop: true,
         effect: "fade",
         navigation: {
@@ -61,6 +38,5 @@ function initSwiper2() {
             el: ".swiper-pagination",
             clickable: true,
         },
-        grabCursor: true,
     });
 }

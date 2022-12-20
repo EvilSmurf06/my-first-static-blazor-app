@@ -32,7 +32,14 @@ function topFunction() {
 //
 /********************* Swicher js ************************/
 //
-
+function toggleSwitcher() {
+    var i = document.getElementById("style-switcher");
+    if (i.style.left === "-189px") {
+        i.style.left = "-0px";
+    } else {
+        i.style.left = "-189px";
+    }
+}
 
 
 function setColor(theme) {
@@ -53,4 +60,4 @@ function setColor(theme) {
             inline: "nearest"
         });
         }
-    }
+}

@@ -1,18 +1,21 @@
 ﻿@page "/counter"
+@using BlazorApp.Shared
+@using System.Text.Json;
+@using System.Net.Http.Headers;
+@inject HttpClient Http;
 
-<PageTitle>Counter</PageTitle>
+<div class="menu @(IsOpen ? "open" : "")">Hello</div>
 
-<h1>Counter</h1>
-
-<p role="status">Current count: @currentCount</p>
-
-<button class="btn btn-primary" @onclick="IncrementCount">Click me</button>
+<button @onclick="@AddClass">Add Class</button>
 
 @code {
-    private int currentCount = 0;
 
-    private void IncrementCount()
+
+    private bool IsOpen { get; set; } = true;
+
+    private void AddClass()
     {
-        currentCount++;
+        IsOpen = !IsOpen;
     }
+
 }

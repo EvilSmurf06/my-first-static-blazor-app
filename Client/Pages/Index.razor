@@ -11,37 +11,15 @@
 
 <PageTitle>Creative Solution</PageTitle>
 
-
 <nav id="navbar" class="navbar navbar-expand-lg fixed-top sticky">
     <div class="container">
-        <a class="navbar-brand" href="/"><img src="images/logo-dark.png" alt="" height="23"></a>
+        <a class="navbar-brand" href="/"><h2>TECHUPMASTER</h2></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
             <i class="mdi mdi-menu text-muted"></i>
         </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ms-auto mb-2 mb-lg-0" id="navbar-navlist">
-                <li class="nav-item dropdown">
-                    <a class="nav-link" href="#blog" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        @languageContainer.Keys["SelectLanguage"] <i class="mdi mdi-chevron-down"></i>
-                    </a>
-                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <li><a href="" @onclick='() => SetLanguage("tr-TR")'>Turkey</a></li>
-                        <li> <a href="" @onclick='() => SetLanguage("en-US")'>English</a></li>
-                        <li><a href="" @onclick='() => SetLanguage("de-DE")'>Germany</a></li>
-                        <li><a href="" @onclick='() => SetLanguage("ja-JP")'>Japan</a></li>
-                        <li><a href="" @onclick='() => SetLanguage("hu-HU")'>Hungary</a></li>
-                        <li><a href="" @onclick='() => SetLanguage("es-AR")'>Argentina</a></li>
-                        <li><a href="" @onclick='() => SetLanguage("bg-BG")'>Bulgary</a></li>
-                        <li><a href="" @onclick='() => SetLanguage("nl-NL")'>Netherlands</a></li>
-                        <li><a href="" @onclick='() => SetLanguage("fr-FR")'>France</a></li>
-                    </ul>
-                </li>
-            </ul>
-            <!--end navbar-nav-->
-            
-        </div>
+        
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ms-auto mb-2 mb-lg-0" id="navbar-navlist">
                 <li class="nav-item">
@@ -55,23 +33,39 @@
                     <a class="nav-link" href="#faq">@languageContainer.Keys["NavbarItem4"]</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#contact">@languageContainer.Keys["NavbarItem7"]</a>
-                    @*<input @bind="newItemName" placeholder="New Todo Item" />
-                    <button @onclick="AddItem">Add</button>
-                    *@
+                    <a class="nav-link" href="#contact">@languageContainer.Keys["NavbarItem7"]</a>              
+                    
                 </li>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0" id="navbar-navlist">
+                <li class="nav-item dropdown">
+                    <a class="nav-link" href="#blog" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        @languageContainer.Keys["SelectLanguage"] <i class="mdi mdi-chevron-down"></i>
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li class="nav-item"><a class="nav-link @((culture.Equals("tr-TR") ? "active" : ""))" @onclick='() => SetLanguage("tr-TR")'>@languageContainer.Keys["Language1"]</a></li>
+                        <li class="nav-item"> <a class="nav-link @((culture.Equals("en-US") ? "active" : ""))" @onclick='() => SetLanguage("en-US")'>@languageContainer.Keys["Language2"]</a></li>
+                        <li class="nav-item"><a class="nav-link @((culture.Equals("de-DE") ? "active" : ""))" @onclick='() => SetLanguage("de-DE")'>@languageContainer.Keys["Language3"]</a></li>
+                        <li class="nav-item"><a class="nav-link @((culture.Equals("nl-NL") ? "active" : ""))" @onclick='() => SetLanguage("nl-NL")'>@languageContainer.Keys["Language5"]</a></li>
+                        <li class="nav-item"><a class="nav-link @((culture.Equals("fr-FR") ? "active" : ""))" @onclick='() => SetLanguage("fr-FR")'>@languageContainer.Keys["Language4"]</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <!--end navbar-nav-->
+            
+        </div>
 
             </ul>
             <!--end navbar-nav-->
             <ul class="list-inline mb-0 ps-lg-4 ms-2">
                 <li class="list-inline-item">
-                    <a href="#" class="primary-link"><i class="mdi mdi-facebook"></i></a>
+                    <a href="#" class="primary-link"><i style="font-size: 25px;margin:0 auto" class="mdi mdi-facebook "></i></a>
                 </li>
                 <li class="list-inline-item">
-                    <a href="#" class="primary-link"><i class="mdi mdi-twitter"></i></a>
+                    <a href="#" class="primary-link"><i style="font-size: 25px;margin:0 auto" class="mdi mdi-twitter"></i></a>
                 </li>
                 <li class="list-inline-item">
-                    <a href="#" class="primary-link"><i class="mdi mdi-instagram"></i></a>
+                    <a href="#" class="primary-link"><i style="font-size: 25px;margin:0 auto" class="mdi mdi-instagram"></i></a>
                 
                 </li>
             </ul>
@@ -142,8 +136,7 @@
 <!--end SUBSCRIBE modal-->
 <AnchorNavigation></AnchorNavigation>
 @code {
-    private string? newItemName;
-    private WeatherForecast[] forecasts = new WeatherForecast[] { };
+
     string culture = "tr-TR";
     async Task SetLanguage(string cultureCod)
     {
@@ -155,13 +148,12 @@
     protected async override Task OnAfterRenderAsync(bool firstRender)
     {
         await JS.InvokeVoidAsync("initSwiper2");
-      
     }
-    /*
-    private async Task AddItem()
-    {
-        var addItem = new SendMail { Title = newItemName, Body = newItemName };
-        await Http.PostAsJsonAsync("api/GetProducts", addItem);
-    }*/
+    
+
+
+
+
+   
 
 }
