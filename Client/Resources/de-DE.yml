@@ -57,3 +57,9 @@ NavbarItem6: ''
 NavbarItem7: KONTAKT
 Address: Distrikt Caddebostan Ogun-Straße Nummer:2 Kadıkoy/Istanbul
 WorkingHour:  9:00 - 18:00
+Success: Erfolgreich
+SuccessMsg: Ihre Nachricht hat uns erfolgreich erreicht.
+ButtonMsg: OK!
+Error: Warnung
+ErrorMsg: Bitte füllen Sie die erforderlichen Felder aus und versuchen Sie es erneut.
+
