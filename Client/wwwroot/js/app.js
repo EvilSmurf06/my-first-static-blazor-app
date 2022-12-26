@@ -18,6 +18,23 @@ function getLocation() {
 }
 
 
+function loader() {
+    setTimeout(() => {
+        document.getElementById("preloader").style.visibility = "hidden";
+        document.getElementById("preloader").style.opacity = "0";
+    }, 350);
+};
+function getLocation() {
+    return new Promise((resolve, reject) => {
+        navigator.geolocation.getCurrentPosition((position) => {
+            resolve(position.coords.latitude + ', ' + position.coords.longitude);
+        }, () => {
+            reject('Unable to retrieve location');
+        });
+    });
+}
+
+
 
     function BlazorScrollToId(id) {
         const element = document.getElementById(id);
