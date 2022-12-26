@@ -39,31 +39,20 @@
                     <a class="nav-link" href="#contact">@languageContainer.Keys["NavbarItem7"]</a>              
                     
                 </li>
-<<<<<<< HEAD
-
-=======
-               
->>>>>>> c8fa89de985e533497bfd6ce0fe315976c9a2953
                 <li class="nav-item dropdown">
                     <a class="nav-link"  role="button" data-bs-toggle="dropdown" aria-expanded="false">
                         @languageContainer.Keys["SelectLanguage"] <i class="mdi mdi-chevron-down"></i>
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-<<<<<<< HEAD
-                        <li><a class="nav-link @((culture.Equals("tr-TR") ? "active" : ""))" href="" @onclick='() => SetLanguage("tr-TR")'><i class="flag flag-tr"></i>@languageContainer.Keys["Language1"]</a></li>
-=======
+
+                       
                         <li ><a class="nav-link @((culture.Equals("tr-TR") ? "active" : ""))" href="" @onclick='() => SetLanguage("tr-TR")'><i class="flag flag-tr"></i>@languageContainer.Keys["Language1"]</a></li>
->>>>>>> c8fa89de985e533497bfd6ce0fe315976c9a2953
                         <li><a class="nav-link @((culture.Equals("en-US") ? "active" : ""))" href="" @onclick='() => SetLanguage("en-US")'><i class="flag flag-us"></i>@languageContainer.Keys["Language2"]</a></li>
                         <li><a class="nav-link @((culture.Equals("de-DE") ? "active" : ""))" href="" @onclick='() => SetLanguage("de-DE")'><i class="flag flag-de"></i>@languageContainer.Keys["Language3"]</a></li>
                         <li><a class="nav-link @((culture.Equals("nl-NL") ? "active" : ""))" href="" @onclick='() => SetLanguage("nl-NL")'><i class="flag flag-nl"></i>@languageContainer.Keys["Language5"]</a></li>
                         <li><a class="nav-link @((culture.Equals("fr-FR") ? "active" : ""))" href="" @onclick='() => SetLanguage("fr-FR")'><i class="flag flag-fr"></i>@languageContainer.Keys["Language4"]</a></li>
                     </ul>
                 </li>
-<<<<<<< HEAD
-=======
-             
->>>>>>> c8fa89de985e533497bfd6ce0fe315976c9a2953
             <!--end navbar-nav-->
             
 
@@ -150,13 +139,7 @@
 @code {
 
     string culture = CultureInfo.CurrentCulture.Name;
-<<<<<<< HEAD
 
-
-
-
-=======
->>>>>>> c8fa89de985e533497bfd6ce0fe315976c9a2953
     async Task SetLanguage(string cultureCod)
     {
 
@@ -170,21 +153,18 @@
     {
         await JS.InvokeVoidAsync("initSwiper2");
     }
-<<<<<<< HEAD
-    protected override async Task OnInitializedAsync()
-=======
+
+
         protected override async Task OnInitializedAsync()
->>>>>>> c8fa89de985e533497bfd6ce0fe315976c9a2953
+
     {
         await JS.InvokeVoidAsync("loader");
         languageContainer.SetLanguage(System.Globalization.CultureInfo.GetCultureInfo(culture));
 
     }
-<<<<<<< HEAD
 
-    
-=======
->>>>>>> c8fa89de985e533497bfd6ce0fe315976c9a2953
+
+   
 
 
 
