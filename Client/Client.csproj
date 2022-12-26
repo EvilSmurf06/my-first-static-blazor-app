@@ -9,26 +9,26 @@
 
 	<ItemGroup>
 		<None Remove="Resources\bg-BG.yml" />
-		<None Remove="Resources\de-DE.yml" />
+		<None Remove="Resources\de.yml" />
 		<None Remove="Resources\en-US.yml" />
 		<None Remove="Resources\es-AR.yml" />
-		<None Remove="Resources\fr-FR.yml" />
+		<None Remove="Resources\fr.yml" />
 		<None Remove="Resources\hu-HU.yml" />
 		<None Remove="Resources\ja-JP.yml" />
-		<None Remove="Resources\nl-NL.yml" />
-		<None Remove="Resources\tr-TR.yml" />
+		<None Remove="Resources\nl.yml" />
+		<None Remove="Resources\tr.yml" />
 	</ItemGroup>
 
 	<ItemGroup>
 		<EmbeddedResource Include="Resources\bg-BG.yml" />
-		<EmbeddedResource Include="Resources\de-DE.yml" />
+		<EmbeddedResource Include="Resources\de.yml" />
 		<EmbeddedResource Include="Resources\en-US.yml" />
 		<EmbeddedResource Include="Resources\es-AR.yml" />
-		<EmbeddedResource Include="Resources\fr-FR.yml" />
+		<EmbeddedResource Include="Resources\fr.yml" />
 		<EmbeddedResource Include="Resources\hu-HU.yml" />
 		<EmbeddedResource Include="Resources\ja-JP.yml" />
-		<EmbeddedResource Include="Resources\nl-NL.yml" />
-		<EmbeddedResource Include="Resources\tr-TR.yml" />
+		<EmbeddedResource Include="Resources\nl.yml" />
+		<EmbeddedResource Include="Resources\tr.yml" />
 	</ItemGroup>
 
 	<ItemGroup>
