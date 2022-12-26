@@ -3,13 +3,17 @@
 @using System.Net;
 @using BlazorApp.Shared;
 @using static System.Net.WebRequestMethods;
+@using System.Threading.Tasks;
+@using System.Net.Http;
+@using System.Text.Json
+@using System.Globalization;
 @inject IJSRuntime JS
 @inject ILanguageContainerService languageContainer
 @inject HttpClient Http
 
 
 
-<PageTitle>Creative Solution</PageTitle>
+<PageTitle>Techupmaster</PageTitle>
 
 <nav id="navbar" class="navbar navbar-expand-lg fixed-top sticky">
     <div class="container">
@@ -36,20 +40,19 @@
                     <a class="nav-link" href="#contact">@languageContainer.Keys["NavbarItem7"]</a>              
                     
                 </li>
-                <ul class="navbar-nav ms-auto mb-2 mb-lg-0" id="navbar-navlist">
+
                 <li class="nav-item dropdown">
-                    <a class="nav-link"  id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <a class="nav-link"  role="button" data-bs-toggle="dropdown" aria-expanded="false">
                         @languageContainer.Keys["SelectLanguage"] <i class="mdi mdi-chevron-down"></i>
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <li><a class="nav-link @((culture.Equals("tr-TR") ? "active" : ""))" @onclick='() => SetLanguage("tr-TR")'><i class="flag flag-tr"></i>@languageContainer.Keys["Language1"]</a></li>
-                        <li><a class="nav-link @((culture.Equals("en-US") ? "active" : ""))" @onclick='() => SetLanguage("en-US")'><i class="flag flag-us"></i>@languageContainer.Keys["Language2"]</a></li>
-                        <li><a class="nav-link @((culture.Equals("de-DE") ? "active" : ""))" @onclick='() => SetLanguage("de-DE")'><i class="flag flag-de"></i>@languageContainer.Keys["Language3"]</a></li>
-                        <li><a class="nav-link @((culture.Equals("nl-NL") ? "active" : ""))" @onclick='() => SetLanguage("nl-NL")'><i class="flag flag-nl"></i>@languageContainer.Keys["Language5"]</a></li>
-                        <li><a class="nav-link @((culture.Equals("fr-FR") ? "active" : ""))" @onclick='() => SetLanguage("fr-FR")'><i class="flag flag-fr"></i>@languageContainer.Keys["Language4"]</a></li>
+                        <li><a class="nav-link @((culture.Equals("tr-TR") ? "active" : ""))" href="" @onclick='() => SetLanguage("tr-TR")'><i class="flag flag-tr"></i>@languageContainer.Keys["Language1"]</a></li>
+                        <li><a class="nav-link @((culture.Equals("en-US") ? "active" : ""))" href="" @onclick='() => SetLanguage("en-US")'><i class="flag flag-us"></i>@languageContainer.Keys["Language2"]</a></li>
+                        <li><a class="nav-link @((culture.Equals("de-DE") ? "active" : ""))" href="" @onclick='() => SetLanguage("de-DE")'><i class="flag flag-de"></i>@languageContainer.Keys["Language3"]</a></li>
+                        <li><a class="nav-link @((culture.Equals("nl-NL") ? "active" : ""))" href="" @onclick='() => SetLanguage("nl-NL")'><i class="flag flag-nl"></i>@languageContainer.Keys["Language5"]</a></li>
+                        <li><a class="nav-link @((culture.Equals("fr-FR") ? "active" : ""))" href="" @onclick='() => SetLanguage("fr-FR")'><i class="flag flag-fr"></i>@languageContainer.Keys["Language4"]</a></li>
                     </ul>
                 </li>
-                </ul>
             <!--end navbar-nav-->
             
 
@@ -135,9 +138,15 @@
 <AnchorNavigation></AnchorNavigation>
 @code {
 
-    string culture = "tr-TR";
+    string culture = CultureInfo.CurrentCulture.Name;
+
+
+
+
     async Task SetLanguage(string cultureCod)
     {
+
+        //string x = culture + "-" + culture.ToUpper();
         languageContainer.SetLanguage(System.Globalization.CultureInfo.GetCultureInfo(cultureCod));
         culture = cultureCod;
         expandSubNav = false;
@@ -147,6 +156,13 @@
     {
         await JS.InvokeVoidAsync("initSwiper2");
     }
+    protected override async Task OnInitializedAsync()
+    {
+        await JS.InvokeVoidAsync("loader");
+        languageContainer.SetLanguage(System.Globalization.CultureInfo.GetCultureInfo(culture));
+
+    }
+
     
 
 

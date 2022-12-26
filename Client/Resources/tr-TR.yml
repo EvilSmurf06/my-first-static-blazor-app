@@ -68,4 +68,8 @@ NavbarItem6: BLOG
 NavbarItem7: BİZE ULAŞIN
 Address: Caddebostan Mahallesi Ogün Sokak No:2 Kadıköy/İstanbul
 WorkingHour:  9:00 - 18:00
-
+Success: Başarılı
+SuccessMsg: Başarılı bir şekilde mesajınız bize ulaşmıştır.
+ButtonMsg: Tamam
+Error: Uyarı
+ErrorMsg: Lütfen gerekli alanları doldurup tekrar deneyiniz.

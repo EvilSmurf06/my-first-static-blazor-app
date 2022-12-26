@@ -87,7 +87,7 @@
     private string? title;
     private string? name;
 
-
+    
 
     protected override async Task OnInitializedAsync()
     {
@@ -102,10 +102,11 @@
 
             var addItem = new SendMail { Title = title, Body = body, Name = name };
             await Http.PostAsJsonAsync("api/ProductsGet", addItem);
+            await JS.InvokeAsync<string>("showSuccess", new string[] { languageContainer.Keys["Success"], languageContainer.Keys["SuccessMsg"], languageContainer.Keys["ButtonMsg"] });
         }
         else
         {
-            await JS.InvokeAsync<string>("showError", new string[] { "Lütfen gerekli alanları doldurup tekrar deneyiniz." });
+            await JS.InvokeAsync<string>("showError", new string[] { languageContainer.Keys["Error"], languageContainer.Keys["ErrorMsg"], languageContainer.Keys["ButtonMsg"] });
         }
 
     }

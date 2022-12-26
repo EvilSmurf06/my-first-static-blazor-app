@@ -1,6 +1,21 @@
 
 //
 /********************* Page Load js ************************/
+function loader() {
+    setTimeout(() => {
+        document.getElementById("preloader").style.visibility = "hidden";
+        document.getElementById("preloader").style.opacity = "0";
+    }, 350);
+};
+function getLocation() {
+    return new Promise((resolve, reject) => {
+        navigator.geolocation.getCurrentPosition((position) => {
+            resolve(position.coords.latitude + ', ' + position.coords.longitude);
+        }, () => {
+            reject('Unable to retrieve location');
+        });
+    });
+}
 
 
 
@@ -15,11 +30,20 @@
         }
 }
 
-function showError(msg) {
+function showError(title,msg,button) {
     swal({
-        title: "UYARI",
+        title: title,
         text: msg,
         icon: "error",
-        button: "Tamam"
+        button: button
+    });
+}
+
+function showSuccess(title,msg,button) {
+    swal({
+        title: title,
+        text: msg,
+        icon: "success",
+        button: button
     });
 }

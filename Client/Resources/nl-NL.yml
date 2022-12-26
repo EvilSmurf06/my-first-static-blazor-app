@@ -57,3 +57,8 @@ NavbarItem6: ''
 NavbarItem7: CONTACT
 Address: Caddebostan-district Ogun straat Nee:2 Kadıkoy/Istanbul
 WorkingHour:  9:00 - 18:00
+Success: Succesvol
+SuccessMsg: Uw bericht heeft ons succesvol bereikt.
+ButtonMsg: OKÉ
+Error: Waarschuwing
+ErrorMsg: Vul de verplichte velden in en probeer het opnieuw.

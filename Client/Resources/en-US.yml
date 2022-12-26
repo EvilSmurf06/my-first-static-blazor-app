@@ -57,3 +57,9 @@ NavbarItem6:
 NavbarItem7: CONTACT
 Address: Caddebostan Quarter Ogun Street No:2 Kadıkoy/Istanbul
 WorkingHour:  9:00AM - 18:00PM
+Success: Successful
+SuccessMsg: Your message has successfully reached us.
+ButtonMsg: OK
+Error: Warning
+ErrorMsg: Please fill in the required fields and try again.
+

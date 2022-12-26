@@ -775,9 +775,9 @@ ul.pattern .color6 {
           animation-fill-mode: both;
 }
 
-.navbar .navbar-nav .nav-item.dropdown .dropdown-menu li .nav-link {
-  color: #25272b;
-}
+    .navbar .navbar-nav .dropdown-menu li .nav-link {
+        color: #25272b;
+    }
 
 .navbar .navbar-nav .nav-item.dropdown .dropdown-menu li .nav-link:hover {
   color: #3f8efc;
