@@ -134,7 +134,7 @@
 <AnchorNavigation></AnchorNavigation>
 @code {
 
-    string culture = "tr-TR";
+    string culture = CultureInfo.CurrentCulture.Name;
     async Task SetLanguage(string cultureCod)
     {
         languageContainer.SetLanguage(System.Globalization.CultureInfo.GetCultureInfo(cultureCod));
@@ -146,7 +146,12 @@
     {
         await JS.InvokeVoidAsync("initSwiper2");
     }
-    
+        protected override async Task OnInitializedAsync()
+    {
+        await JS.InvokeVoidAsync("loader");
+        languageContainer.SetLanguage(System.Globalization.CultureInfo.GetCultureInfo(culture));
+
+    }
 
 
 
