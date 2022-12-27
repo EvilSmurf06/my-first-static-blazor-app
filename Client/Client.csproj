@@ -106,6 +106,7 @@
 
 	<ItemGroup>
 		<PackageReference Include="AKSoftware.Localization.MultiLanguages" Version="5.8.0" />
+		<PackageReference Include="Blazored.LocalStorage" Version="4.3.0" />
 		<PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly" Version="7.0" />
 		<PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.DevServer" Version="7.0" PrivateAssets="all" />
 		<PackageReference Include="Microsoft.AspNetCore.Cors" Version="2.2.0" />

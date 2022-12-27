@@ -10,6 +10,7 @@
 @inject IJSRuntime JS
 @inject ILanguageContainerService languageContainer
 @inject HttpClient Http
+@inject Blazored.LocalStorage.ILocalStorageService localStorage
 
 
 
@@ -46,11 +47,11 @@
                     <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
 
                        
-                        <li ><a class="nav-link @((culture.Equals("tr") ? "active" : ""))" href="" @onclick='() => SetLanguage("tr")'><i class="flag flag-tr"></i>@languageContainer.Keys["Language1"]</a></li>
-                        <li><a class="nav-link @((culture.Equals("en-US") ? "active" : ""))" href="" @onclick='() => SetLanguage("en-US")'><i class="flag flag-us"></i>@languageContainer.Keys["Language2"]</a></li>
-                        <li><a class="nav-link @((culture.Equals("de") ? "active" : ""))" href="" @onclick='() => SetLanguage("de")'><i class="flag flag-de"></i>@languageContainer.Keys["Language3"]</a></li>
-                        <li><a class="nav-link @((culture.Equals("nl") ? "active" : ""))" href="" @onclick='() => SetLanguage("nl")'><i class="flag flag-nl"></i>@languageContainer.Keys["Language5"]</a></li>
-                        <li><a class="nav-link @((culture.Equals("fr") ? "active" : ""))" href="" @onclick='() => SetLanguage("fr")'><i class="flag flag-fr"></i>@languageContainer.Keys["Language4"]</a></li>
+                        <li><a class="nav-link @((name.Equals("tr") ? "active" : ""))" href="" @onclick='() => SetLanguage("tr")'><i class="flag flag-tr"></i>@languageContainer.Keys["Language1"]</a></li>
+                        <li><a class="nav-link @((name.Equals("en-US") ? "active" : ""))" href="" @onclick='() => SetLanguage("en-US")'><i class="flag flag-us"></i>@languageContainer.Keys["Language2"]</a></li>
+                        <li><a class="nav-link @((name.Equals("de") ? "active" : ""))" href="" @onclick='() => SetLanguage("de")'><i class="flag flag-de"></i>@languageContainer.Keys["Language3"]</a></li>
+                        <li><a class="nav-link @((name.Equals("nl") ? "active" : ""))" href="" @onclick='() => SetLanguage("nl")'><i class="flag flag-nl"></i>@languageContainer.Keys["Language5"]</a></li>
+                        <li><a class="nav-link @((name.Equals("fr") ? "active" : ""))" href="" @onclick='() => SetLanguage("fr")'><i class="flag flag-fr"></i>@languageContainer.Keys["Language4"]</a></li>
                     </ul>
                 </li>
             <!--end navbar-nav-->
@@ -77,27 +78,27 @@
 </nav>
 
 
-<HomeComponent CultureCode="@culture" />
+<HomeComponent CultureCode="@name" />
 
 
 <!-- START FEATURES -->
-<FeaturesComponent CultureCode="@culture" />
+<FeaturesComponent CultureCode="@name" />
 
 <!-- END FEATURES -->
 <!-- START Process -->
 
-<ProcessComponent CultureCode="@culture" />
+<ProcessComponent CultureCode="@name" />
 
 <!-- END Process -->
 <!--start contact-->
-<FAQComponent CultureCode="@culture"></FAQComponent>
+<FAQComponent CultureCode="@name"></FAQComponent>
 
-<ContactUsComponent CultureCode="@culture" />
+<ContactUsComponent CultureCode="@name" />
 
 <!--end contact-->
 <!-- START FOOTER -->
 
-<FooterComponent CultureCode="@culture" />
+<FooterComponent CultureCode="@name" />
 
 
 
@@ -138,21 +139,24 @@
 <AnchorNavigation></AnchorNavigation>
 @code {
     //string culture = CultureInfo.CurrentCulture.Name + "-" + CultureInfo.CurrentCulture.Name.ToUpper();
-
+    string name = CultureInfo.CurrentCulture.Name;
     string culture = CultureInfo.CurrentCulture.Name;
     async Task SetLanguage(string cultureCod)
     {
-        
+        await localStorage.SetItemAsync("cultureCode", cultureCod);
+        name = await localStorage.GetItemAsync<string>("cultureCode");
         if(culture == "tr" || culture == "en-US" || culture == "fr" || culture == "nl" || culture == "de"){
             //string x = culture + "-" + culture.ToUpper();
             languageContainer.SetLanguage(System.Globalization.CultureInfo.GetCultureInfo(cultureCod));
             culture = cultureCod;
             expandSubNav = false;
+            name = cultureCod;
         }
         else
         {
             languageContainer.SetLanguage(System.Globalization.CultureInfo.GetCultureInfo("en-US"));
             culture = cultureCod;
+            name = cultureCod;
             expandSubNav = false;
         }
     }
@@ -160,21 +164,35 @@
     protected async override Task OnAfterRenderAsync(bool firstRender)
     {
         await JS.InvokeVoidAsync("initSwiper2");
+        if(firstRender)
+        {
+            if (name == "tr" || name == "en-US" || name == "fr" || name == "nl" || name == "de")
+            {
+                languageContainer.SetLanguage(System.Globalization.CultureInfo.GetCultureInfo(name));
+            }
+            else
+            {
+                languageContainer.SetLanguage(System.Globalization.CultureInfo.GetCultureInfo("en-US"));
+            }
+        }
+
     }
 
 
-        protected override async Task OnInitializedAsync()
+    protected override async Task OnInitializedAsync()
 
     {
         await JS.InvokeVoidAsync("loader");
+        name = await localStorage.GetItemAsync<string>("cultureCode");
         if (culture == "tr" || culture == "en-US" || culture == "fr" || culture == "nl" || culture == "de")
         {
-        languageContainer.SetLanguage(System.Globalization.CultureInfo.GetCultureInfo(culture));
+        languageContainer.SetLanguage(System.Globalization.CultureInfo.GetCultureInfo(name));
         }
         else
         {
             languageContainer.SetLanguage(System.Globalization.CultureInfo.GetCultureInfo("en-US"));
         }
+        StateHasChanged();
     }
 
 
